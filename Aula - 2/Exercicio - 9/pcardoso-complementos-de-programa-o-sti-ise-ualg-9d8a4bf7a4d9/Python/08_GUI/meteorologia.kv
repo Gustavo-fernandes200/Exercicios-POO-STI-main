@@ -1,0 +1,28 @@
+
+
+<MeteorologiaWidget>:
+    orientation: "vertical"
+    Label:
+        id: nome_da_cidade
+        text: "-"
+        font_size: 30
+
+    AsyncImage:
+        id: icon_meteorologico
+        source:""
+
+    GridLayout:
+        cols: 2
+
+        Label:
+            text: "Temperatura"
+        Label:
+            text: "Velocidade do vento"
+        Label:
+            id: valor_temperatura
+            text: "-"
+        Label:
+            id: velocidade_do_vento
+            text: "-"
+
+

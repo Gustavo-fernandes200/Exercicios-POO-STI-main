@@ -1,0 +1,41 @@
+<LoginScreen>:
+    name: "login"
+    BoxLayout:
+        orientation: "vertical"
+        GridLayout:
+            cols:2
+            Label:
+                text: "User"
+            TextInput:
+                id: ti_user
+
+            Label:
+                text: "Password"
+            TextInput:
+                id: ti_pw
+
+        Button:
+            text: "OK"
+            on_release: root.login()
+
+
+<MainScreen>:
+    name: "main"
+    BoxLayout:
+        orientation: "vertical"
+        GridLayout:
+            cols: 3
+            Label:
+                id: lb_user
+                text: "user"
+            Label:
+                id: lb_email
+                text: "email"
+            Label:
+                id: lb_idade
+                text: "idade"
+
+        Button:
+            text: "Logout!"
+            on_release: root.logout()
+

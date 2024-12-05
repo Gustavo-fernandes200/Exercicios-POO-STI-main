@@ -1,0 +1,25 @@
+
+* `gerar_tabuada(numero)`: Esta função é responsável por gerar a tabuada do número fornecido como argumento. Aqui está uma explicação mais detalhada do processo dentro dela:
+    * `numero`: Este é o parâmetro que representa o número para o qual queremos gerar a tabuada.
+    * `tabuada`: É uma lista que será usada para armazenar os pares de multiplicação (número, fator, resultado).
+    * O loop `for i in range(1, 11)` itera de 1 a 10 (inclusive). Para cada valor de `i`, a função calcula o produto entre `numero` e `i`, e adiciona uma tupla contendo o número, o fator e o resultado à lista `tabuada`.
+    * Ao final, a lista `tabuada` completa é retornada.
+
+* `imprimir_tabuada(tabuada)`: Esta função é responsável por imprimir a tabuada na tela. Aqui estão os detalhes:
+    * `tabuada`: Este é o parâmetro que recebe a lista de tuplas gerada pela função `gerar_tabuada`.
+    * Um loop `for` itera sobre cada tupla na lista `tabuada`.
+    * Para cada tupla, os elementos são extraídos (o número, o fator e o resultado da multiplicação) e são formatados numa string, que é então impressa na tela no formato "número x fator = resultado".
+
+* `obter_numero()`: Esta função é responsável por solicitar ao utilizador um número inteiro entre 1 e 10. Aqui está uma explicação detalhada:
+    * É usado um loop `while True` para garantir que o utilizador insira um número válido.
+    * Dentro do loop, tentamos converter a entrada do utilizador para um número inteiro usando `int(input(...))`.
+    * O bloco `try-except` é usado para lidar com possíveis erros de valor ao tentar converter a entrada do utilizador para um número inteiro. Se o utilizador inserir algo que não pode ser convertido para um número inteiro, o bloco `except ValueError` será acionado.
+    * Se a conversão for bem-sucedida e o número estiver dentro do intervalo desejado (entre 1 e 10), o número é retornado.
+    * Caso contrário, uma mensagem de erro é exibida informando ao utilizador que um número inteiro válido deve ser inserido, e o loop continua pedindo ao utilizador que insira um número válido.
+
+* `main()`: Esta função é a principal do programa e coordena o fluxo de execução. Aqui estão os detalhes:
+    * Primeiro, chama a função `obter_numero()` para obter o número para o qual deseja-se gerar a tabuada.
+    * Em seguida, chama a função `gerar_tabuada(numero)` para criar a tabuada correspondente ao número obtido.
+    * Por fim, chama a função `imprimir_tabuada(tabuada)` para imprimir a tabuada na tela.
+
+* `if __name__ == "__main__": main()`: Esta linha garante que o código dentro do bloco `main()` só será executado se o script for executado diretamente (ou seja, não for importado como um módulo em outro script). Isto é uma prática comum em Python para separar a lógica de execução principal do código de outras definições de função e variáveis, permitindo que o script seja reutilizado como um módulo se necessário.

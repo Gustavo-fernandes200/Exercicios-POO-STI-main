@@ -1,0 +1,26 @@
+{# isto +e um comentario #}
+{# https://jinja.palletsprojects.com/en/2.11.x/templates/ #}
+
+{#
+    {{ }} - The string marking the beginning/ending of a print statement.
+    {% %} - The string marking the beginning/ending of a block
+#}
+
+<html>
+    <head>
+        <title>{{ title }} </title>
+    </head>
+    <body>
+        <h1>Things:</h1>
+        {% for thing in things %}
+            <div>
+                <h2>{{ thing.name }}</h2>
+                <p> localizado em {{ thing.local }} tem os sensores:</p>
+                {% for sensor in thing.sensors %}
+                    <div>{{ sensor.sensor_name }}</div>
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </body>
+</html>
+

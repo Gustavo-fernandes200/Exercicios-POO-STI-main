@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_hakyUNC-EeW6X_Jxb8Wqeg">
+  <modelElement href="Ex.Banco.uml#_haONANC-EeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A6tmANDEEeWYiIlaiWSqzw" targetItem="_A7GAgNDEEeWYiIlaiWSqzw" sourceItem="_A6rw0NDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A62I4dDEEeWYiIlaiWSqzw" targetItem="_A7GAktDEEeWYiIlaiWSqzw" sourceItem="_A62I4NDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A65zQNDEEeWYiIlaiWSqzw" targetItem="_A7GAl9DEEeWYiIlaiWSqzw" sourceItem="_A65MMNDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A66aUdDEEeWYiIlaiWSqzw" targetItem="_A7GnktDEEeWYiIlaiWSqzw" sourceItem="_A66aUNDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A67ocdDEEeWYiIlaiWSqzw" targetItem="_A7Gnl9DEEeWYiIlaiWSqzw" sourceItem="_A67ocNDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A68PgdDEEeWYiIlaiWSqzw" targetItem="_A7Gnn9DEEeWYiIlaiWSqzw" sourceItem="_A68PgNDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A69dodDEEeWYiIlaiWSqzw" targetItem="_A7GnpNDEEeWYiIlaiWSqzw" sourceItem="_A69doNDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A6_S0dDEEeWYiIlaiWSqzw" targetItem="_A7GnrNDEEeWYiIlaiWSqzw" sourceItem="_A6_S0NDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A9HZwdDEEeWYiIlaiWSqzw" targetItem="_A9ZGkNDEEeWYiIlaiWSqzw" sourceItem="_A9HZwNDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A9LEIdDEEeWYiIlaiWSqzw" targetItem="_A9Ztu9DEEeWYiIlaiWSqzw" sourceItem="_A9LEINDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A9LrMdDEEeWYiIlaiWSqzw" targetItem="_A9ZtwNDEEeWYiIlaiWSqzw" sourceItem="_A9LrMNDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A9MSQdDEEeWYiIlaiWSqzw" targetItem="_A9ZtxtDEEeWYiIlaiWSqzw" sourceItem="_A9MSQNDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A9M5UdDEEeWYiIlaiWSqzw" targetItem="_A9Zty9DEEeWYiIlaiWSqzw" sourceItem="_A9M5UNDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A9NgYdDEEeWYiIlaiWSqzw" targetItem="_A9Zt0dDEEeWYiIlaiWSqzw" sourceItem="_A9NgYNDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A9OHcdDEEeWYiIlaiWSqzw" targetItem="_A9Zt1tDEEeWYiIlaiWSqzw" sourceItem="_A9OHcNDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A9OugdDEEeWYiIlaiWSqzw" targetItem="_A9Zt3NDEEeWYiIlaiWSqzw" sourceItem="_A9OugNDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A9PVkdDEEeWYiIlaiWSqzw" targetItem="_A9Zt4dDEEeWYiIlaiWSqzw" sourceItem="_A9PVkNDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A9P8odDEEeWYiIlaiWSqzw" targetItem="_A9Zt5tDEEeWYiIlaiWSqzw" sourceItem="_A9P8oNDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A9RKwNDEEeWYiIlaiWSqzw" targetItem="_A9Zt7NDEEeWYiIlaiWSqzw" sourceItem="_A9QjsNDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A9Rx0dDEEeWYiIlaiWSqzw" targetItem="_A9Zt8dDEEeWYiIlaiWSqzw" sourceItem="_A9Rx0NDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_A9SY4dDEEeWYiIlaiWSqzw" targetItem="_A9Zt-tDEEeWYiIlaiWSqzw" sourceItem="_A9SY4NDEEeWYiIlaiWSqzw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_s-Wv0NDEEeWYiIlaiWSqzw" target="_A7GAgNDEEeWYiIlaiWSqzw" source="_A9ZGkNDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_s827ANDEEeWYiIlaiWSqzw"/>
+    <stereotypes xmi:id="_s-Wv0dDEEeWYiIlaiWSqzw" name="Reference">
+      <modelElement href="Ex.Banco.uml#_s84JINDEEeWYiIlaiWSqzw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_s-Wv0tDEEeWYiIlaiWSqzw" text=""/>
+    <sourceRole xmi:id="_s-Wv09DEEeWYiIlaiWSqzw" aggregationKind="NONE" name="">
+      <modelElement href="Ex.Banco.uml#_s827AdDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_s-Wv1NDEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_s-Wv1dDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_s-Wv1tDEEeWYiIlaiWSqzw" aggregationKind="NONE" name="entranceDate" navigable="true">
+      <modelElement href="Ex.Banco.uml#_Azm4cNDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_s-Wv19DEEeWYiIlaiWSqzw" label="~"/>
+      <cardinality xmi:id="_s-Wv2NDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A6rw0NDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A6tmANDEEeWYiIlaiWSqzw" text="The Class Data." item="_A7GAgNDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0VRMNDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A62I4NDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A62I4dDEEeWYiIlaiWSqzw" text="Gets the dia.&#xA;   *&#xA;   * @return the dia" item="_A7GAktDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0VRMdDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A65MMNDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A65zQNDEEeWYiIlaiWSqzw" text="Sets the dia. Basic validation (1 &lt;= dia &lt;= 31)&#xA;   *&#xA;   * @param day the day&#xA;   * @return true, if successful" item="_A7GAl9DEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0V4QNDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A66aUNDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A66aUdDEEeWYiIlaiWSqzw" text="Gets the month.&#xA;   *&#xA;   * @return the month" item="_A7GnktDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0V4QdDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A67ocNDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A67ocdDEEeWYiIlaiWSqzw" text="Sets the month.&#xA;   *&#xA;   * @param month the new month" item="_A7Gnl9DEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0V4QtDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A68PgNDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A68PgdDEEeWYiIlaiWSqzw" text="Gets the year.&#xA;   *&#xA;   * @return the year" item="_A7Gnn9DEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0V4Q9DEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A69doNDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A69dodDEEeWYiIlaiWSqzw" text="Sets the year. (>= 2000)&#xA;   *&#xA;   * @param year the new year" item="_A7GnpNDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0V4RNDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A6_S0NDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A6_S0dDEEeWYiIlaiWSqzw" text="Sets the date.&#xA;   *&#xA;   * @param day the day&#xA;   * @param month the month&#xA;   * @param year the year&#xA;   * @return true, if successful" item="_A7GnrNDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0WfUNDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A9HZwNDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A9HZwdDEEeWYiIlaiWSqzw" text="The Class Employee." item="_A9ZGkNDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0WfUdDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A9LEINDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A9LEIdDEEeWYiIlaiWSqzw" text="Gets the name.&#xA;   *&#xA;   * @return the name" item="_A9Ztu9DEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0WfUtDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A9LrMNDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A9LrMdDEEeWYiIlaiWSqzw" text="Sets the name.&#xA;   *&#xA;   * @param name the new name" item="_A9ZtwNDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0WfU9DEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A9MSQNDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A9MSQdDEEeWYiIlaiWSqzw" text="Gets the departament.&#xA;   *&#xA;   * @return the departament" item="_A9ZtxtDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0XGYNDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A9M5UNDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A9M5UdDEEeWYiIlaiWSqzw" text="Sets the departament.&#xA;   *&#xA;   * @param departament the new departament" item="_A9Zty9DEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0XGYdDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A9NgYNDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A9NgYdDEEeWYiIlaiWSqzw" text="Gets the salary.&#xA;   *&#xA;   * @return the salary" item="_A9Zt0dDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0XGYtDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A9OHcNDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A9OHcdDEEeWYiIlaiWSqzw" text="Sets the salary.&#xA;   *&#xA;   * @param salary the new salary" item="_A9Zt1tDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0XGY9DEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A9OugNDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A9OugdDEEeWYiIlaiWSqzw" text="Gets the entrance date.&#xA;   *&#xA;   * @return the entrance date" item="_A9Zt3NDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0XGZNDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A9PVkNDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A9PVkdDEEeWYiIlaiWSqzw" text="Gets the cc number.&#xA;   *&#xA;   * @return the cc number" item="_A9Zt4dDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0XGZtDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A9P8oNDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A9P8odDEEeWYiIlaiWSqzw" text="Sets the cc number.&#xA;   *&#xA;   * @param ccNumber the new cc number" item="_A9Zt5tDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0XtcNDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A9QjsNDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A9RKwNDEEeWYiIlaiWSqzw" text="Gets the phone number.&#xA;   *&#xA;   * @return the phone number" item="_A9Zt7NDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0XtcdDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A9Rx0NDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A9Rx0dDEEeWYiIlaiWSqzw" text="Sets the phone number.&#xA;   *&#xA;   * @param phoneNumber the new phone number" item="_A9Zt8dDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0XtctDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_A9SY4NDEEeWYiIlaiWSqzw" sourceConnectionVisual="_A9SY4dDEEeWYiIlaiWSqzw" text="Sets the entrance date.&#xA;   *&#xA;   * @param entranceDate the new entrance date" item="_A9Zt-tDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_A0XGZdDEEeWYiIlaiWSqzw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_A7GAgNDEEeWYiIlaiWSqzw" comments="_A6rw0NDEEeWYiIlaiWSqzw" targetConnectionVisual="_A6tmANDEEeWYiIlaiWSqzw" name="Date" associationsIn="_s-Wv0NDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_AyA9ANDEEeWYiIlaiWSqzw"/>
+    <visualProperties xmi:id="_A7GAgdDEEeWYiIlaiWSqzw" position="22.0,55.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_A7GAgtDEEeWYiIlaiWSqzw" label="+"/>
+    <attributes xmi:id="_A7GAg9DEEeWYiIlaiWSqzw" name="day">
+      <modelElement href="Ex.Banco.uml#_AzaEINDEEeWYiIlaiWSqzw"/>
+      <stereotypes xmi:id="_A7GAhNDEEeWYiIlaiWSqzw" name="LegacyStyledElement">
+        <modelElement href="Ex.Banco.uml#_AzeVkNDEEeWYiIlaiWSqzw"/>
+      </stereotypes>
+      <visibility xmi:id="_A7GAhdDEEeWYiIlaiWSqzw" label="~"/>
+      <cardinality xmi:id="_A7GAhtDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <type xmi:id="_A7GAh9DEEeWYiIlaiWSqzw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_A7GAiNDEEeWYiIlaiWSqzw" name="month">
+      <modelElement href="Ex.Banco.uml#_AzhY4NDEEeWYiIlaiWSqzw"/>
+      <stereotypes xmi:id="_A7GAidDEEeWYiIlaiWSqzw" name="LegacyStyledElement">
+        <modelElement href="Ex.Banco.uml#_Azh_8NDEEeWYiIlaiWSqzw"/>
+      </stereotypes>
+      <visibility xmi:id="_A7GAitDEEeWYiIlaiWSqzw" label="~"/>
+      <cardinality xmi:id="_A7GAi9DEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <type xmi:id="_A7GAjNDEEeWYiIlaiWSqzw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_A7GAjdDEEeWYiIlaiWSqzw" name="year">
+      <modelElement href="Ex.Banco.uml#_AzinANDEEeWYiIlaiWSqzw"/>
+      <stereotypes xmi:id="_A7GAjtDEEeWYiIlaiWSqzw" name="LegacyStyledElement">
+        <modelElement href="Ex.Banco.uml#_Azj1INDEEeWYiIlaiWSqzw"/>
+      </stereotypes>
+      <visibility xmi:id="_A7GAj9DEEeWYiIlaiWSqzw" label="~"/>
+      <cardinality xmi:id="_A7GAkNDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <type xmi:id="_A7GAkdDEEeWYiIlaiWSqzw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_A7GAktDEEeWYiIlaiWSqzw" comments="_A62I4NDEEeWYiIlaiWSqzw" targetConnectionVisual="_A62I4dDEEeWYiIlaiWSqzw" name="getDay">
+      <modelElement href="Ex.Banco.uml#_AyZ-kNDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A7GAk9DEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A7GAlNDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_A7GAldDEEeWYiIlaiWSqzw">
+        <modelElement href="Ex.Banco.uml#_AybzwNDEEeWYiIlaiWSqzw"/>
+        <type xmi:id="_A7GAltDEEeWYiIlaiWSqzw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_A7GAl9DEEeWYiIlaiWSqzw" comments="_A65MMNDEEeWYiIlaiWSqzw" targetConnectionVisual="_A65zQNDEEeWYiIlaiWSqzw" name="setDay">
+      <modelElement href="Ex.Banco.uml#_AydB4NDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A7GAmNDEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A7GAmdDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_A7GAmtDEEeWYiIlaiWSqzw">
+        <modelElement href="Ex.Banco.uml#_Aydo8NDEEeWYiIlaiWSqzw"/>
+        <type xmi:id="_A7GAm9DEEeWYiIlaiWSqzw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_A7GAnNDEEeWYiIlaiWSqzw" name="day">
+        <modelElement href="Ex.Banco.uml#_AydB4dDEEeWYiIlaiWSqzw"/>
+        <cardinality xmi:id="_A7GnkNDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+        <type xmi:id="_A7GnkdDEEeWYiIlaiWSqzw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_A7GnktDEEeWYiIlaiWSqzw" comments="_A66aUNDEEeWYiIlaiWSqzw" targetConnectionVisual="_A66aUdDEEeWYiIlaiWSqzw" name="getMonth">
+      <modelElement href="Ex.Banco.uml#_Aydo8dDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A7Gnk9DEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A7GnlNDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_A7GnldDEEeWYiIlaiWSqzw">
+        <modelElement href="Ex.Banco.uml#_AyeQANDEEeWYiIlaiWSqzw"/>
+        <type xmi:id="_A7GnltDEEeWYiIlaiWSqzw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_A7Gnl9DEEeWYiIlaiWSqzw" comments="_A67ocNDEEeWYiIlaiWSqzw" targetConnectionVisual="_A67ocdDEEeWYiIlaiWSqzw" name="setMonth">
+      <modelElement href="Ex.Banco.uml#_Aye3ENDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A7GnmNDEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A7GnmdDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_A7GnmtDEEeWYiIlaiWSqzw">
+        <modelElement href="Ex.Banco.uml#_AyfeINDEEeWYiIlaiWSqzw"/>
+        <type xmi:id="_A7Gnm9DEEeWYiIlaiWSqzw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_A7GnnNDEEeWYiIlaiWSqzw" name="month">
+        <modelElement href="Ex.Banco.uml#_Aye3EdDEEeWYiIlaiWSqzw"/>
+        <cardinality xmi:id="_A7GnndDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+        <type xmi:id="_A7GnntDEEeWYiIlaiWSqzw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_A7Gnn9DEEeWYiIlaiWSqzw" comments="_A68PgNDEEeWYiIlaiWSqzw" targetConnectionVisual="_A68PgdDEEeWYiIlaiWSqzw" name="getYear">
+      <modelElement href="Ex.Banco.uml#_AyfeIdDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A7GnoNDEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A7GnodDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_A7GnotDEEeWYiIlaiWSqzw">
+        <modelElement href="Ex.Banco.uml#_AygFMNDEEeWYiIlaiWSqzw"/>
+        <type xmi:id="_A7Gno9DEEeWYiIlaiWSqzw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_A7GnpNDEEeWYiIlaiWSqzw" comments="_A69doNDEEeWYiIlaiWSqzw" targetConnectionVisual="_A69dodDEEeWYiIlaiWSqzw" name="setYear">
+      <modelElement href="Ex.Banco.uml#_AygsQNDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A7GnpdDEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A7GnptDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_A7Gnp9DEEeWYiIlaiWSqzw">
+        <modelElement href="Ex.Banco.uml#_AyhTUdDEEeWYiIlaiWSqzw"/>
+        <type xmi:id="_A7GnqNDEEeWYiIlaiWSqzw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_A7GnqdDEEeWYiIlaiWSqzw" name="year">
+        <modelElement href="Ex.Banco.uml#_AyhTUNDEEeWYiIlaiWSqzw"/>
+        <cardinality xmi:id="_A7GnqtDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+        <type xmi:id="_A7Gnq9DEEeWYiIlaiWSqzw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_A7GnrNDEEeWYiIlaiWSqzw" comments="_A6_S0NDEEeWYiIlaiWSqzw" targetConnectionVisual="_A6_S0dDEEeWYiIlaiWSqzw" name="setDate">
+      <modelElement href="Ex.Banco.uml#_Ayk9sNDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A7GnrdDEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A7GnrtDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_A7Gnr9DEEeWYiIlaiWSqzw">
+        <modelElement href="Ex.Banco.uml#_AylkwtDEEeWYiIlaiWSqzw"/>
+        <type xmi:id="_A7GnsNDEEeWYiIlaiWSqzw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_A7GnsdDEEeWYiIlaiWSqzw" name="day">
+        <modelElement href="Ex.Banco.uml#_Ayk9sdDEEeWYiIlaiWSqzw"/>
+        <cardinality xmi:id="_A7GnstDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+        <type xmi:id="_A7Gns9DEEeWYiIlaiWSqzw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_A7GntNDEEeWYiIlaiWSqzw" name="month">
+        <modelElement href="Ex.Banco.uml#_AylkwNDEEeWYiIlaiWSqzw"/>
+        <cardinality xmi:id="_A7GntdDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+        <type xmi:id="_A7GnttDEEeWYiIlaiWSqzw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_A7Gnt9DEEeWYiIlaiWSqzw" name="year">
+        <modelElement href="Ex.Banco.uml#_AylkwdDEEeWYiIlaiWSqzw"/>
+        <cardinality xmi:id="_A7GnuNDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+        <type xmi:id="_A7GnudDEEeWYiIlaiWSqzw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_A7GnutDEEeWYiIlaiWSqzw" name="toString">
+      <modelElement href="Ex.Banco.uml#_AymL0NDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A7Gnu9DEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A7GnvNDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_A7GnvdDEEeWYiIlaiWSqzw">
+        <modelElement href="Ex.Banco.uml#_AypPINDEEeWYiIlaiWSqzw"/>
+        <type xmi:id="_A7GnvtDEEeWYiIlaiWSqzw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_A9ZGkNDEEeWYiIlaiWSqzw" comments="_A9HZwNDEEeWYiIlaiWSqzw" targetConnectionVisual="_A9HZwdDEEeWYiIlaiWSqzw" name="Employee" associationsOut="_s-Wv0NDEEeWYiIlaiWSqzw">
+    <modelElement href="Ex.Banco.uml#_AyuusNDEEeWYiIlaiWSqzw"/>
+    <visualProperties xmi:id="_A9ZGkdDEEeWYiIlaiWSqzw" position="476.0,36.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_A9ZGktDEEeWYiIlaiWSqzw" label="+"/>
+    <attributes xmi:id="_A9ZGk9DEEeWYiIlaiWSqzw" name="name">
+      <modelElement href="Ex.Banco.uml#_AzkcMNDEEeWYiIlaiWSqzw"/>
+      <stereotypes xmi:id="_A9ZGlNDEEeWYiIlaiWSqzw" name="LegacyStyledElement">
+        <modelElement href="Ex.Banco.uml#_AzlDQNDEEeWYiIlaiWSqzw"/>
+      </stereotypes>
+      <visibility xmi:id="_A9ZGldDEEeWYiIlaiWSqzw" label="~"/>
+      <cardinality xmi:id="_A9ZtoNDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <type xmi:id="_A9ZtodDEEeWYiIlaiWSqzw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_A9ZtotDEEeWYiIlaiWSqzw" name="departament">
+      <modelElement href="Ex.Banco.uml#_AzlDQdDEEeWYiIlaiWSqzw"/>
+      <stereotypes xmi:id="_A9Zto9DEEeWYiIlaiWSqzw" name="LegacyStyledElement">
+        <modelElement href="Ex.Banco.uml#_AzlqUNDEEeWYiIlaiWSqzw"/>
+      </stereotypes>
+      <visibility xmi:id="_A9ZtpNDEEeWYiIlaiWSqzw" label="~"/>
+      <cardinality xmi:id="_A9ZtpdDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <type xmi:id="_A9ZtptDEEeWYiIlaiWSqzw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_A9Ztp9DEEeWYiIlaiWSqzw" name="salary">
+      <modelElement href="Ex.Banco.uml#_AzmRYNDEEeWYiIlaiWSqzw"/>
+      <stereotypes xmi:id="_A9ZtqNDEEeWYiIlaiWSqzw" name="LegacyStyledElement">
+        <modelElement href="Ex.Banco.uml#_AzmRYdDEEeWYiIlaiWSqzw"/>
+      </stereotypes>
+      <visibility xmi:id="_A9ZtqdDEEeWYiIlaiWSqzw" label="~"/>
+      <cardinality xmi:id="_A9ZtqtDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <type xmi:id="_A9Ztq9DEEeWYiIlaiWSqzw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_A9ZtrNDEEeWYiIlaiWSqzw" name="entranceDate">
+      <modelElement href="Ex.Banco.uml#_Azm4cNDEEeWYiIlaiWSqzw"/>
+      <stereotypes xmi:id="_A9ZtrdDEEeWYiIlaiWSqzw" name="LegacyStyledElement">
+        <modelElement href="Ex.Banco.uml#_AznfgNDEEeWYiIlaiWSqzw"/>
+      </stereotypes>
+      <visibility xmi:id="_A9ZtrtDEEeWYiIlaiWSqzw" label="~"/>
+      <cardinality xmi:id="_A9Ztr9DEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <type xmi:id="_A9ZtsNDEEeWYiIlaiWSqzw" name="Date">
+        <modelElement href="Ex.Banco.uml#_AyA9ANDEEeWYiIlaiWSqzw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_A9ZtsdDEEeWYiIlaiWSqzw" name="ccNumber">
+      <modelElement href="Ex.Banco.uml#_AzotoNDEEeWYiIlaiWSqzw"/>
+      <stereotypes xmi:id="_A9ZtstDEEeWYiIlaiWSqzw" name="LegacyStyledElement">
+        <modelElement href="Ex.Banco.uml#_AzpUsNDEEeWYiIlaiWSqzw"/>
+      </stereotypes>
+      <visibility xmi:id="_A9Zts9DEEeWYiIlaiWSqzw" label="~"/>
+      <cardinality xmi:id="_A9ZttNDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <type xmi:id="_A9ZttdDEEeWYiIlaiWSqzw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_A9ZtttDEEeWYiIlaiWSqzw" name="phoneNumber">
+      <modelElement href="Ex.Banco.uml#_Azp7wNDEEeWYiIlaiWSqzw"/>
+      <stereotypes xmi:id="_A9Ztt9DEEeWYiIlaiWSqzw" name="LegacyStyledElement">
+        <modelElement href="Ex.Banco.uml#_Azqi0NDEEeWYiIlaiWSqzw"/>
+      </stereotypes>
+      <visibility xmi:id="_A9ZtuNDEEeWYiIlaiWSqzw" label="~"/>
+      <cardinality xmi:id="_A9ZtudDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <type xmi:id="_A9ZtutDEEeWYiIlaiWSqzw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_A9Ztu9DEEeWYiIlaiWSqzw" comments="_A9LEINDEEeWYiIlaiWSqzw" targetConnectionVisual="_A9LEIdDEEeWYiIlaiWSqzw" name="getName">
+      <modelElement href="Ex.Banco.uml#_Ay0OQNDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A9ZtvNDEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A9ZtvdDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_A9ZtvtDEEeWYiIlaiWSqzw">
+        <modelElement href="Ex.Banco.uml#_Ay01UNDEEeWYiIlaiWSqzw"/>
+        <type xmi:id="_A9Ztv9DEEeWYiIlaiWSqzw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_A9ZtwNDEEeWYiIlaiWSqzw" comments="_A9LrMNDEEeWYiIlaiWSqzw" targetConnectionVisual="_A9LrMdDEEeWYiIlaiWSqzw" name="setName">
+      <modelElement href="Ex.Banco.uml#_Ay1cYNDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A9ZtwdDEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A9ZtwtDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_A9Ztw9DEEeWYiIlaiWSqzw" name="name">
+        <modelElement href="Ex.Banco.uml#_Ay1cYdDEEeWYiIlaiWSqzw"/>
+        <cardinality xmi:id="_A9ZtxNDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+        <type xmi:id="_A9ZtxdDEEeWYiIlaiWSqzw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_A9ZtxtDEEeWYiIlaiWSqzw" comments="_A9MSQNDEEeWYiIlaiWSqzw" targetConnectionVisual="_A9MSQdDEEeWYiIlaiWSqzw" name="getDepartament">
+      <modelElement href="Ex.Banco.uml#_Ay2DcNDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A9Ztx9DEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A9ZtyNDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_A9ZtydDEEeWYiIlaiWSqzw">
+        <modelElement href="Ex.Banco.uml#_Ay2qgNDEEeWYiIlaiWSqzw"/>
+        <type xmi:id="_A9ZtytDEEeWYiIlaiWSqzw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_A9Zty9DEEeWYiIlaiWSqzw" comments="_A9M5UNDEEeWYiIlaiWSqzw" targetConnectionVisual="_A9M5UdDEEeWYiIlaiWSqzw" name="setDepartament">
+      <modelElement href="Ex.Banco.uml#_Ay3RkNDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A9ZtzNDEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A9ZtzdDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_A9ZtztDEEeWYiIlaiWSqzw" name="departament">
+        <modelElement href="Ex.Banco.uml#_Ay3RkdDEEeWYiIlaiWSqzw"/>
+        <cardinality xmi:id="_A9Ztz9DEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+        <type xmi:id="_A9Zt0NDEEeWYiIlaiWSqzw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_A9Zt0dDEEeWYiIlaiWSqzw" comments="_A9NgYNDEEeWYiIlaiWSqzw" targetConnectionVisual="_A9NgYdDEEeWYiIlaiWSqzw" name="getSalary">
+      <modelElement href="Ex.Banco.uml#_Ay34oNDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A9Zt0tDEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A9Zt09DEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_A9Zt1NDEEeWYiIlaiWSqzw">
+        <modelElement href="Ex.Banco.uml#_Ay4fsNDEEeWYiIlaiWSqzw"/>
+        <type xmi:id="_A9Zt1dDEEeWYiIlaiWSqzw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_A9Zt1tDEEeWYiIlaiWSqzw" comments="_A9OHcNDEEeWYiIlaiWSqzw" targetConnectionVisual="_A9OHcdDEEeWYiIlaiWSqzw" name="setSalary">
+      <modelElement href="Ex.Banco.uml#_Ay5GwNDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A9Zt19DEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A9Zt2NDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_A9Zt2dDEEeWYiIlaiWSqzw" name="salary">
+        <modelElement href="Ex.Banco.uml#_Ay5GwdDEEeWYiIlaiWSqzw"/>
+        <cardinality xmi:id="_A9Zt2tDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+        <type xmi:id="_A9Zt29DEEeWYiIlaiWSqzw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_A9Zt3NDEEeWYiIlaiWSqzw" comments="_A9OugNDEEeWYiIlaiWSqzw" targetConnectionVisual="_A9OugdDEEeWYiIlaiWSqzw" name="getEntranceDate">
+      <modelElement href="Ex.Banco.uml#_Ay5t0NDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A9Zt3dDEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A9Zt3tDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_A9Zt39DEEeWYiIlaiWSqzw">
+        <modelElement href="Ex.Banco.uml#_AzVysNDEEeWYiIlaiWSqzw"/>
+        <type xmi:id="_A9Zt4NDEEeWYiIlaiWSqzw" name="Date">
+          <modelElement href="Ex.Banco.uml#_AyA9ANDEEeWYiIlaiWSqzw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_A9Zt4dDEEeWYiIlaiWSqzw" comments="_A9PVkNDEEeWYiIlaiWSqzw" targetConnectionVisual="_A9PVkdDEEeWYiIlaiWSqzw" name="getCcNumber">
+      <modelElement href="Ex.Banco.uml#_Ay7jANDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A9Zt4tDEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A9Zt49DEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_A9Zt5NDEEeWYiIlaiWSqzw">
+        <modelElement href="Ex.Banco.uml#_Ay7jAdDEEeWYiIlaiWSqzw"/>
+        <type xmi:id="_A9Zt5dDEEeWYiIlaiWSqzw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_A9Zt5tDEEeWYiIlaiWSqzw" comments="_A9P8oNDEEeWYiIlaiWSqzw" targetConnectionVisual="_A9P8odDEEeWYiIlaiWSqzw" name="setCcNumber">
+      <modelElement href="Ex.Banco.uml#_Ay8KENDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A9Zt59DEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A9Zt6NDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_A9Zt6dDEEeWYiIlaiWSqzw" name="ccNumber">
+        <modelElement href="Ex.Banco.uml#_Ay8KEdDEEeWYiIlaiWSqzw"/>
+        <cardinality xmi:id="_A9Zt6tDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+        <type xmi:id="_A9Zt69DEEeWYiIlaiWSqzw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_A9Zt7NDEEeWYiIlaiWSqzw" comments="_A9QjsNDEEeWYiIlaiWSqzw" targetConnectionVisual="_A9RKwNDEEeWYiIlaiWSqzw" name="getPhoneNumber">
+      <modelElement href="Ex.Banco.uml#_Ay8xINDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A9Zt7dDEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A9Zt7tDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_A9Zt79DEEeWYiIlaiWSqzw">
+        <modelElement href="Ex.Banco.uml#_Ay9_QNDEEeWYiIlaiWSqzw"/>
+        <type xmi:id="_A9Zt8NDEEeWYiIlaiWSqzw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_A9Zt8dDEEeWYiIlaiWSqzw" comments="_A9Rx0NDEEeWYiIlaiWSqzw" targetConnectionVisual="_A9Rx0dDEEeWYiIlaiWSqzw" name="setPhoneNumber">
+      <modelElement href="Ex.Banco.uml#_Ay-mUNDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A9Zt8tDEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A9Zt89DEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_A9Zt9NDEEeWYiIlaiWSqzw" name="phoneNumber">
+        <modelElement href="Ex.Banco.uml#_Ay_NYNDEEeWYiIlaiWSqzw"/>
+        <cardinality xmi:id="_A9Zt9dDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+        <type xmi:id="_A9Zt9tDEEeWYiIlaiWSqzw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_A9Zt99DEEeWYiIlaiWSqzw" name="print">
+      <modelElement href="Ex.Banco.uml#_Ay_NYdDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A9Zt-NDEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A9Zt-dDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_A9Zt-tDEEeWYiIlaiWSqzw" comments="_A9SY4NDEEeWYiIlaiWSqzw" targetConnectionVisual="_A9SY4dDEEeWYiIlaiWSqzw" name="setEntranceDate">
+      <modelElement href="Ex.Banco.uml#_AzVysdDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A9Zt-9DEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A9Zt_NDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_A9Zt_dDEEeWYiIlaiWSqzw" name="entranceDate">
+        <modelElement href="Ex.Banco.uml#_AzWZwNDEEeWYiIlaiWSqzw"/>
+        <cardinality xmi:id="_A9Zt_tDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+        <type xmi:id="_A9Zt_9DEEeWYiIlaiWSqzw" name="Date">
+          <modelElement href="Ex.Banco.uml#_AyA9ANDEEeWYiIlaiWSqzw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_A-hH8NDEEeWYiIlaiWSqzw" name="MainProgram">
+    <modelElement href="Ex.Banco.uml#_AzEs8NDEEeWYiIlaiWSqzw"/>
+    <visualProperties xmi:id="_A-hH8dDEEeWYiIlaiWSqzw" position="823.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_A-hH8tDEEeWYiIlaiWSqzw" label="+"/>
+    <operations xmi:id="_A-hH89DEEeWYiIlaiWSqzw" name="main" staticOperation="true">
+      <modelElement href="Ex.Banco.uml#_AzF7ENDEEeWYiIlaiWSqzw"/>
+      <visibility xmi:id="_A-hH9NDEEeWYiIlaiWSqzw" label="+"/>
+      <cardinality xmi:id="_A-hH9dDEEeWYiIlaiWSqzw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_A-hH9tDEEeWYiIlaiWSqzw" name="args">
+        <modelElement href="Ex.Banco.uml#_AzF7EdDEEeWYiIlaiWSqzw"/>
+        <cardinality xmi:id="_A-hH99DEEeWYiIlaiWSqzw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_A-hH-NDEEeWYiIlaiWSqzw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,71 @@
+
+<FormularioWidget>:
+    orientation: "vertical"
+    GridLayout:
+        cols: 2
+
+        Label:
+            text: "Nome"
+        TextInput:
+            id: nome
+            multiline: False
+
+        Label:
+            text: "Email"
+        TextInput:
+            id: email
+            multiline: False
+
+        Label:
+            text: "Tem carro"
+        CheckBox:
+            id: tem_carro
+
+        Label:
+            text: "Género"
+        GridLayout:
+            cols:2
+            Label:
+                text: "Masculino"
+            CheckBox:
+                id: genero_masculino
+                group: "genero"
+            Label:
+                text: "Feminino"
+            CheckBox:
+                id: genero_feminino
+                group: "genero"
+
+        Label:
+            text: "Pais"
+
+        Spinner:
+            id: pais
+            values: 'Portugal', 'Espanha', 'França', 'Itália'
+            text: "Nacionalidade"
+
+    BoxLayout:
+        orientation: "horizontal"
+        Button:
+            text: "Novo"
+            on_release: root.novo()
+        Button:
+            text: "Apaga"
+            on_release: root.apaga()
+        Button:
+            text: "Grava"
+            on_release: root.grava()
+        Button:
+            text: "Anterior"
+            on_release: root.anterior()
+        Button:
+            text: "Próximo"
+            on_release: root.proximo()
+
+    ProgressBar:
+        id: progress_bar
+        max: 100
+        value: 50
+
+
+

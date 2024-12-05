@@ -1,0 +1,28 @@
+
+<Player>:
+    orientation: "vertical"
+
+    Spinner:
+        id: lista_de_canais
+        size_hint: 1, .1
+        on_text: root.muda_canal()
+
+    Video:
+        id: player
+        source: "Bem-Vindos-ao-Mundo-UAlg.mkv"
+        state: "play"
+
+    BoxLayout:
+        orientation:"horizontal"
+        size_hint: 1, .1
+        Button:
+            text: "Play"
+            on_release: player.state = "play"
+
+        Button:
+            text: "Pause"
+            on_release: player.state = "pause"
+
+        Button:
+            text: "Stop"
+            on_release: player.state = "stop"
