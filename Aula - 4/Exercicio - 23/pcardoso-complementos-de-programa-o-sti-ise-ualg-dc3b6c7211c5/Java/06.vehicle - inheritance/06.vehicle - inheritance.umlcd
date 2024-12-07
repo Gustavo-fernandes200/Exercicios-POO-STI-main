@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_FuAa0NsVEeWZ0c7BHCeEIw">
+  <modelElement href="06.vehicle%20-%20inheritance.uml#_FrUTMNsVEeWZ0c7BHCeEIw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_IDz0kNsVEeWZ0c7BHCeEIw" targetItem="_IESVsNsVEeWZ0c7BHCeEIw" sourceItem="_IDx_YNsVEeWZ0c7BHCeEIw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IEOrUNsVEeWZ0c7BHCeEIw" sourceAnchor="66.0,94.0" targetAnchor="235.0,0.0" target="_IJx5sNsVEeWZ0c7BHCeEIw" source="_IESVsNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HZqEUNsVEeWZ0c7BHCeEIw"/>
+    <stereotypes xmi:id="_IEOrUdsVEeWZ0c7BHCeEIw" name="Reference">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HZwK8NsVEeWZ0c7BHCeEIw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IEOrUtsVEeWZ0c7BHCeEIw" text="">
+      <visualProperties xmi:id="_ImLh0NsVEeWZ0c7BHCeEIw" position="2.0,-10.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_IEOrU9sVEeWZ0c7BHCeEIw" aggregationKind="NONE" name="">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HZqEUdsVEeWZ0c7BHCeEIw"/>
+      <visualProperties xmi:id="_ImKTs9sVEeWZ0c7BHCeEIw" position="-18.0,38.571428571428555"/>
+      <visibility xmi:id="_IEOrVNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IEOrVdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IEOrVtsVEeWZ0c7BHCeEIw" aggregationKind="NONE" name="engine" navigable="true">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX9bMNsVEeWZ0c7BHCeEIw"/>
+      <visualProperties xmi:id="_ImMI4NsVEeWZ0c7BHCeEIw" position="-56.0,-91.57142857142856"/>
+      <visibility xmi:id="_IEOrV9sVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IEOrWNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_IF77gNsVEeWZ0c7BHCeEIw" targetItem="_IF_l4NsVEeWZ0c7BHCeEIw" sourceItem="_IF7UcNsVEeWZ0c7BHCeEIw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_IGFsgdsVEeWZ0c7BHCeEIw" targetItem="_IGLzINsVEeWZ0c7BHCeEIw" sourceItem="_IGFsgNsVEeWZ0c7BHCeEIw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IGGTkNsVEeWZ0c7BHCeEIw" sourceAnchor="0.0,85.0" targetAnchor="585.0,78.0" target="_IGLzINsVEeWZ0c7BHCeEIw" source="_IIp4UNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HZfFMNsVEeWZ0c7BHCeEIw"/>
+    <nameVisual xmi:id="_IGJW4NsVEeWZ0c7BHCeEIw" text="">
+      <visualProperties xmi:id="_ImPMMNsVEeWZ0c7BHCeEIw" position="5.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_IGJ98NsVEeWZ0c7BHCeEIw" aggregationKind="NONE" name="owner" navigable="true">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX_3cNsVEeWZ0c7BHCeEIw"/>
+      <visualProperties xmi:id="_ImOlINsVEeWZ0c7BHCeEIw" position="-99.0,2.0"/>
+      <visibility xmi:id="_IGLMENsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGKlANsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IGJ98dsVEeWZ0c7BHCeEIw" aggregationKind="NONE" name="">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HZfFMdsVEeWZ0c7BHCeEIw"/>
+      <visualProperties xmi:id="_ImPMMdsVEeWZ0c7BHCeEIw" position="25.0,2.0000000000001137"/>
+      <visibility xmi:id="_IGLMEtsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGLMEdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_IGq7UdsVEeWZ0c7BHCeEIw" targetItem="_IGvz0NsVEeWZ0c7BHCeEIw" sourceItem="_IGq7UNsVEeWZ0c7BHCeEIw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IGriYNsVEeWZ0c7BHCeEIw" sourceAnchor="79.0,0.0" targetAnchor="175.0,65.0" target="_IGvz0NsVEeWZ0c7BHCeEIw" source="_IJx5sNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HZco8NsVEeWZ0c7BHCeEIw"/>
+    <nameVisual xmi:id="_IGt-oNsVEeWZ0c7BHCeEIw" text="">
+      <visualProperties xmi:id="_ImS2kNsVEeWZ0c7BHCeEIw" position="2.0,-10.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_IGt-odsVEeWZ0c7BHCeEIw" aggregationKind="NONE" name="engine" navigable="true">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX7mANsVEeWZ0c7BHCeEIw"/>
+      <visualProperties xmi:id="_ImSPgNsVEeWZ0c7BHCeEIw" position="-56.0,-98.0"/>
+      <visibility xmi:id="_IGvMwdsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGvMwNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IGt-otsVEeWZ0c7BHCeEIw" aggregationKind="NONE" name="">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HZco8dsVEeWZ0c7BHCeEIw"/>
+      <visualProperties xmi:id="_ImS2kdsVEeWZ0c7BHCeEIw" position="-18.000000000000114,44.0"/>
+      <visibility xmi:id="_IGvMw9sVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGvMwtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IG2hgNsVEeWZ0c7BHCeEIw" sourceAnchor="362.0,0.0" targetAnchor="291.0,158.0" superClass="_IGLzINsVEeWZ0c7BHCeEIw" subClass="_IG_EYNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HXNNQNsVEeWZ0c7BHCeEIw"/>
+    <bendpoints xmi:id="_lHBsINsVEeWZ0c7BHCeEIw" sourceY="-36" targetX="-952" targetY="122"/>
+    <bendpoints xmi:id="_lHBsIdsVEeWZ0c7BHCeEIw" sourceX="952" sourceY="-36" targetY="122"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_IG49wNsVEeWZ0c7BHCeEIw" targetItem="_IG_EYNsVEeWZ0c7BHCeEIw" sourceItem="_IG4WsNsVEeWZ0c7BHCeEIw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IG49wdsVEeWZ0c7BHCeEIw" sourceAnchor="411.0,0.0" targetAnchor="362.0,94.0" superClass="_IG_EYNsVEeWZ0c7BHCeEIw" subClass="_IF_l4NsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HXs8gNsVEeWZ0c7BHCeEIw"/>
+    <bendpoints xmi:id="_lHBsItsVEeWZ0c7BHCeEIw" sourceY="-30" targetX="-156" targetY="104"/>
+    <bendpoints xmi:id="_lHBsI9sVEeWZ0c7BHCeEIw" sourceX="156" sourceY="-29" targetY="105"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_II5v8dsVEeWZ0c7BHCeEIw" targetItem="_II-ocNsVEeWZ0c7BHCeEIw" sourceItem="_II5v8NsVEeWZ0c7BHCeEIw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_II6XANsVEeWZ0c7BHCeEIw" sourceAnchor="471.0,68.0" targetAnchor="1108.0,47.0" target="_II-ocNsVEeWZ0c7BHCeEIw" source="_IJx5sNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HZWiUNsVEeWZ0c7BHCeEIw"/>
+    <bendpoints xmi:id="_lHBsJNsVEeWZ0c7BHCeEIw" sourceX="2490" targetX="32" targetY="614"/>
+    <bendpoints xmi:id="_lHCTMNsVEeWZ0c7BHCeEIw" sourceX="2497" sourceY="-614" targetX="39"/>
+    <nameVisual xmi:id="_II8zQNsVEeWZ0c7BHCeEIw" text="">
+      <visualProperties xmi:id="_ImRBYNsVEeWZ0c7BHCeEIw" position="-52.0,285.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_II8zQdsVEeWZ0c7BHCeEIw" aggregationKind="NONE" name="engine" navigable="true">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX2GcNsVEeWZ0c7BHCeEIw"/>
+      <visualProperties xmi:id="_ImQaUNsVEeWZ0c7BHCeEIw" position="1.0,41.0"/>
+      <visibility xmi:id="_II-BYNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_II9aUNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_II8zQtsVEeWZ0c7BHCeEIw" aggregationKind="NONE" name="">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HZXJYNsVEeWZ0c7BHCeEIw"/>
+      <visualProperties xmi:id="_ImRBYdsVEeWZ0c7BHCeEIw" position="22.0,41.0"/>
+      <visibility xmi:id="_II-BYtsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_II-BYdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IJEvENsVEeWZ0c7BHCeEIw" sourceAnchor="301.0,0.0" targetAnchor="362.0,94.0" superClass="_IG_EYNsVEeWZ0c7BHCeEIw" subClass="_IJIZcNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HXW-QNsVEeWZ0c7BHCeEIw"/>
+    <bendpoints xmi:id="_lHCTMdsVEeWZ0c7BHCeEIw" sourceY="-188" targetX="-582" targetY="104"/>
+    <bendpoints xmi:id="_lHCTMtsVEeWZ0c7BHCeEIw" sourceX="582" sourceY="-187" targetY="105"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_IJFWIdsVEeWZ0c7BHCeEIw" targetItem="_IJIZcNsVEeWZ0c7BHCeEIw" sourceItem="_IJFWINsVEeWZ0c7BHCeEIw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IJNR8NsVEeWZ0c7BHCeEIw" sourceAnchor="419.0,0.0" targetAnchor="291.0,158.0" superClass="_IGLzINsVEeWZ0c7BHCeEIw" subClass="_IJXC8NsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HXpSINsVEeWZ0c7BHCeEIw"/>
+    <bendpoints xmi:id="_lHBFENsVEeWZ0c7BHCeEIw" sourceY="-40" targetX="112" targetY="122"/>
+    <bendpoints xmi:id="_lHBFEdsVEeWZ0c7BHCeEIw" sourceX="-112" sourceY="-40" targetY="122"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_IJN5AdsVEeWZ0c7BHCeEIw" targetItem="_IJXC8NsVEeWZ0c7BHCeEIw" sourceItem="_IJN5ANsVEeWZ0c7BHCeEIw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IJOgENsVEeWZ0c7BHCeEIw" sourceAnchor="449.0,0.0" targetAnchor="419.0,115.0" superClass="_IJXC8NsVEeWZ0c7BHCeEIw" subClass="_IGvz0NsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HXfhINsVEeWZ0c7BHCeEIw"/>
+    <bendpoints xmi:id="_lHBFEtsVEeWZ0c7BHCeEIw" sourceY="-30" targetX="-332" targetY="82"/>
+    <bendpoints xmi:id="_lHBFE9sVEeWZ0c7BHCeEIw" sourceX="332" sourceY="-30" targetY="82"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IJOgEdsVEeWZ0c7BHCeEIw" sourceAnchor="649.0,0.0" targetAnchor="419.0,115.0" superClass="_IJXC8NsVEeWZ0c7BHCeEIw" subClass="_IESVsNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HXjLgNsVEeWZ0c7BHCeEIw"/>
+    <bendpoints xmi:id="_lHCTNdsVEeWZ0c7BHCeEIw" sourceY="-171" targetX="133" targetY="82"/>
+    <bendpoints xmi:id="_lHC6QNsVEeWZ0c7BHCeEIw" sourceX="-133" sourceY="-171" targetY="82"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJdJkNsVEeWZ0c7BHCeEIw" sourceAnchor="91.0,204.0" targetAnchor="974.0,0.0" target="_IJmTgNsVEeWZ0c7BHCeEIw" source="_IGhKUNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HZazwNsVEeWZ0c7BHCeEIw"/>
+    <nameVisual xmi:id="_IJe-wdsVEeWZ0c7BHCeEIw" text="">
+      <visualProperties xmi:id="_ImN-ENsVEeWZ0c7BHCeEIw" position="2.0,-4.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_IJe-wtsVEeWZ0c7BHCeEIw" aggregationKind="NONE" name="wheels" navigable="true">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX6X4NsVEeWZ0c7BHCeEIw"/>
+      <visualProperties xmi:id="_ImNXANsVEeWZ0c7BHCeEIw" position="-59.0,11.0"/>
+      <visibility xmi:id="_IJj3QdsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IJj3QNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJe-w9sVEeWZ0c7BHCeEIw" aggregationKind="NONE" name="">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HZazwdsVEeWZ0c7BHCeEIw"/>
+      <visualProperties xmi:id="_ImN-EdsVEeWZ0c7BHCeEIw" position="41.0,-55.0"/>
+      <visibility xmi:id="_IJkeUdsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IJkeUNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IJdwoNsVEeWZ0c7BHCeEIw" sourceAnchor="494.0,0.0" targetAnchor="291.0,158.0" superClass="_IGLzINsVEeWZ0c7BHCeEIw" subClass="_IJmTgNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HXb2wNsVEeWZ0c7BHCeEIw"/>
+    <bendpoints xmi:id="_lHBFFNsVEeWZ0c7BHCeEIw" sourceY="-30" targetX="1166" targetY="122"/>
+    <bendpoints xmi:id="_lHBFFdsVEeWZ0c7BHCeEIw" sourceX="-1166" sourceY="-30" targetY="122"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_IJeXsdsVEeWZ0c7BHCeEIw" targetItem="_IJmTgNsVEeWZ0c7BHCeEIw" sourceItem="_IJeXsNsVEeWZ0c7BHCeEIw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IJe-wNsVEeWZ0c7BHCeEIw" sourceAnchor="554.0,0.0" targetAnchor="494.0,136.0" superClass="_IJmTgNsVEeWZ0c7BHCeEIw" subClass="_II-ocNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HXT68NsVEeWZ0c7BHCeEIw"/>
+    <bendpoints xmi:id="_lHCTM9sVEeWZ0c7BHCeEIw" sourceY="-30" targetX="636" targetY="30"/>
+    <bendpoints xmi:id="_lHCTNNsVEeWZ0c7BHCeEIw" sourceX="-636" sourceY="-29" targetY="31"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_IJvdcNsVEeWZ0c7BHCeEIw" targetItem="_IJx5sNsVEeWZ0c7BHCeEIw" sourceItem="_IJu2YNsVEeWZ0c7BHCeEIw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IJ7qsNsVEeWZ0c7BHCeEIw" sourceAnchor="523.0,0.0" targetAnchor="494.0,136.0" superClass="_IJmTgNsVEeWZ0c7BHCeEIw" subClass="_IJ_VENsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HXQ3oNsVEeWZ0c7BHCeEIw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_IJ8RwdsVEeWZ0c7BHCeEIw" targetItem="_IJ_VENsVEeWZ0c7BHCeEIw" sourceItem="_IJ8RwNsVEeWZ0c7BHCeEIw"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_IDx_YNsVEeWZ0c7BHCeEIw" sourceConnectionVisual="_IDz0kNsVEeWZ0c7BHCeEIw" text="The Class SaillingBoat." item="_IESVsNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HZdQANsVEeWZ0c7BHCeEIw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_IF7UcNsVEeWZ0c7BHCeEIw" sourceConnectionVisual="_IF77gNsVEeWZ0c7BHCeEIw" text="The Class Winged." item="_IF_l4NsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HZgTUNsVEeWZ0c7BHCeEIw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_IGFsgNsVEeWZ0c7BHCeEIw" sourceConnectionVisual="_IGFsgdsVEeWZ0c7BHCeEIw" text="The Class Vehicle." item="_IGLzINsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HZd3ENsVEeWZ0c7BHCeEIw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_IGq7UNsVEeWZ0c7BHCeEIw" sourceConnectionVisual="_IGq7UdsVEeWZ0c7BHCeEIw" text="The Class MotorBoat." item="_IGvz0NsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HZcB4NsVEeWZ0c7BHCeEIw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_IG4WsNsVEeWZ0c7BHCeEIw" sourceConnectionVisual="_IG49wNsVEeWZ0c7BHCeEIw" text="The Class AirVehicle." item="_IG_EYNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HZUtINsVEeWZ0c7BHCeEIw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_II5v8NsVEeWZ0c7BHCeEIw" sourceConnectionVisual="_II5v8dsVEeWZ0c7BHCeEIw" text="The Class Car." item="_II-ocNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HZVUMdsVEeWZ0c7BHCeEIw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_IJFWINsVEeWZ0c7BHCeEIw" sourceConnectionVisual="_IJFWIdsVEeWZ0c7BHCeEIw" text="The Class Multicopter." item="_IJIZcNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HZXwcNsVEeWZ0c7BHCeEIw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_IJN5ANsVEeWZ0c7BHCeEIw" sourceConnectionVisual="_IJN5AdsVEeWZ0c7BHCeEIw" text="The Class WaterVehicle." item="_IJXC8NsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HZfsQNsVEeWZ0c7BHCeEIw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_IJeXsNsVEeWZ0c7BHCeEIw" sourceConnectionVisual="_IJeXsdsVEeWZ0c7BHCeEIw" text="The Class LandVehicle." item="_IJmTgNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HZaMsdsVEeWZ0c7BHCeEIw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_IJu2YNsVEeWZ0c7BHCeEIw" sourceConnectionVisual="_IJvdcNsVEeWZ0c7BHCeEIw" text="The Class Engine." item="_IJx5sNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HZaMsNsVEeWZ0c7BHCeEIw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_IJ8RwNsVEeWZ0c7BHCeEIw" sourceConnectionVisual="_IJ8RwdsVEeWZ0c7BHCeEIw" text="The Class Bicycle." item="_IJ_VENsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HZVUMNsVEeWZ0c7BHCeEIw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IGvz0NsVEeWZ0c7BHCeEIw" comments="_IGq7UNsVEeWZ0c7BHCeEIw" targetConnectionVisual="_IGq7UdsVEeWZ0c7BHCeEIw" name="MotorBoat" associationsIn="_IGriYNsVEeWZ0c7BHCeEIw" generalizations="_IJOgENsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HU_mwNsVEeWZ0c7BHCeEIw"/>
+    <visualProperties xmi:id="_IGvz0dsVEeWZ0c7BHCeEIw" position="461.0,-165.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IGvz0tsVEeWZ0c7BHCeEIw" label="+"/>
+    <attributes xmi:id="_IGvz09sVEeWZ0c7BHCeEIw" name="engine">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX7mANsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IGvz1NsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGvz1dsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IGvz1tsVEeWZ0c7BHCeEIw" name="Engine">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HUsr0NsVEeWZ0c7BHCeEIw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IGvz19sVEeWZ0c7BHCeEIw" name="MotorBoat">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HXdr8NsVEeWZ0c7BHCeEIw"/>
+      <keywords xmi:id="_IGvz2NsVEeWZ0c7BHCeEIw" keyword="create"/>
+      <visibility xmi:id="_IGvz2dsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGvz2tsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IGvz29sVEeWZ0c7BHCeEIw">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXe6FNsVEeWZ0c7BHCeEIw"/>
+        <type xmi:id="_IGvz3NsVEeWZ0c7BHCeEIw" name="MotorBoat">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HU_mwNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IGvz3dsVEeWZ0c7BHCeEIw" name="owner">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXeTANsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGvz3tsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGvz39sVEeWZ0c7BHCeEIw" name="Person">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVFtYNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IGvz4NsVEeWZ0c7BHCeEIw" name="brand">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXeTAdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGvz4dsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGvz4tsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IGvz49sVEeWZ0c7BHCeEIw" name="model">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXeTAtsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGvz5NsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGvz5dsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IGvz5tsVEeWZ0c7BHCeEIw" name="numberOfPassengers">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXeTA9sVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGvz59sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGvz6NsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IGvz6dsVEeWZ0c7BHCeEIw" name="waterVelocity">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXeTBNsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGvz6tsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGvz69sVEeWZ0c7BHCeEIw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IGvz7NsVEeWZ0c7BHCeEIw" name="size">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXe6ENsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGvz7dsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGvz7tsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IGvz79sVEeWZ0c7BHCeEIw" name="engine">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXe6EdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGvz8NsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGvz8dsVEeWZ0c7BHCeEIw" name="Engine">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HUsr0NsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IJmTgNsVEeWZ0c7BHCeEIw" comments="_IJeXsNsVEeWZ0c7BHCeEIw" targetConnectionVisual="_IJeXsdsVEeWZ0c7BHCeEIw" name="LandVehicle" associationsIn="_IJdJkNsVEeWZ0c7BHCeEIw" generalizations="_IJdwoNsVEeWZ0c7BHCeEIw" subclassedBy="_IJe-wNsVEeWZ0c7BHCeEIw _IJ7qsNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HUzZgNsVEeWZ0c7BHCeEIw"/>
+    <visualProperties xmi:id="_IJmTgdsVEeWZ0c7BHCeEIw" position="1802.0,-402.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IJmTgtsVEeWZ0c7BHCeEIw" label="+"/>
+    <attributes xmi:id="_IJmTg9sVEeWZ0c7BHCeEIw" name="landVelocity">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX5w0NsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IJmThNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IJmThdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IJmThtsVEeWZ0c7BHCeEIw" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJmTh9sVEeWZ0c7BHCeEIw" name="numberOfWheels">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX5w0dsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IJmTiNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IJmTidsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IJmTitsVEeWZ0c7BHCeEIw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJmTi9sVEeWZ0c7BHCeEIw" name="wheels">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX6X4NsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IJmTjNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IJmTjdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IJmTjtsVEeWZ0c7BHCeEIw" name="Wheel">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HVfWANsVEeWZ0c7BHCeEIw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IJmTj9sVEeWZ0c7BHCeEIw" name="LandVehicle">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HXYMYNsVEeWZ0c7BHCeEIw"/>
+      <keywords xmi:id="_IJmTkNsVEeWZ0c7BHCeEIw" keyword="create"/>
+      <visibility xmi:id="_IJmTkdsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IJmTktsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IJmTk9sVEeWZ0c7BHCeEIw">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXZag9sVEeWZ0c7BHCeEIw"/>
+        <type xmi:id="_IJmTlNsVEeWZ0c7BHCeEIw" name="LandVehicle">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HUzZgNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IJmTldsVEeWZ0c7BHCeEIw" name="owner">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXYzcNsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJmTltsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJmTl9sVEeWZ0c7BHCeEIw" name="Person">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVFtYNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJmTmNsVEeWZ0c7BHCeEIw" name="brand">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXYzcdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJmTmdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJmTmtsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJmTm9sVEeWZ0c7BHCeEIw" name="model">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXYzctsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJmTnNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJmTndsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJmTntsVEeWZ0c7BHCeEIw" name="numberOfPassengers">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXYzc9sVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJmTn9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJmToNsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJmTodsVEeWZ0c7BHCeEIw" name="landVelocity">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXYzdNsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJmTotsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJmTo9sVEeWZ0c7BHCeEIw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJmTpNsVEeWZ0c7BHCeEIw" name="wheels">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXYzddsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJmTpdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJmTptsVEeWZ0c7BHCeEIw" name="Wheel">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVfWANsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJmTp9sVEeWZ0c7BHCeEIw" name="numberOfWheels">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXZagNsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJmTqNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJmTqdsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IJmTqtsVEeWZ0c7BHCeEIw" name="LandVehicle">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HXaooNsVEeWZ0c7BHCeEIw"/>
+      <keywords xmi:id="_IJmTq9sVEeWZ0c7BHCeEIw" keyword="create"/>
+      <visibility xmi:id="_IJmTrNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IJmTrdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IJmTrtsVEeWZ0c7BHCeEIw">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXbPtdsVEeWZ0c7BHCeEIw"/>
+        <type xmi:id="_IJmTr9sVEeWZ0c7BHCeEIw" name="LandVehicle">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HUzZgNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IJmTsNsVEeWZ0c7BHCeEIw" name="owner">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXaoodsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJmTsdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJmTstsVEeWZ0c7BHCeEIw" name="Person">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVFtYNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJmTs9sVEeWZ0c7BHCeEIw" name="brand">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXaootsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJmTtNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJmTtdsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJmTttsVEeWZ0c7BHCeEIw" name="model">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXaoo9sVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJmTt9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJmTuNsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJmTudsVEeWZ0c7BHCeEIw" name="numberOfPassengers">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXbPsNsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJmTutsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJmTu9sVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJmTvNsVEeWZ0c7BHCeEIw" name="wheels">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXbPsdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJmTvdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJmTvtsVEeWZ0c7BHCeEIw" name="Wheel">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVfWANsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJmTv9sVEeWZ0c7BHCeEIw" name="numberOfWheels">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXbPstsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJmTwNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJmTwdsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IIp4UNsVEeWZ0c7BHCeEIw" name="Person" associationsOut="_IGGTkNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HVFtYNsVEeWZ0c7BHCeEIw"/>
+    <visualProperties xmi:id="_IIp4UdsVEeWZ0c7BHCeEIw" position="2154.0,-719.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IIp4UtsVEeWZ0c7BHCeEIw" label="+"/>
+    <attributes xmi:id="_IIp4U9sVEeWZ0c7BHCeEIw" name="birthdate">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX8NENsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IIp4VNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IIp4VdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IIp4VtsVEeWZ0c7BHCeEIw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IIp4V9sVEeWZ0c7BHCeEIw" name="name">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX8NEdsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IIp4WNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IIp4WdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IIp4WtsVEeWZ0c7BHCeEIw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IIp4W9sVEeWZ0c7BHCeEIw" name="Person">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HVIJoNsVEeWZ0c7BHCeEIw"/>
+      <keywords xmi:id="_IIp4XNsVEeWZ0c7BHCeEIw" keyword="create"/>
+      <visibility xmi:id="_IIp4XdsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IIp4XtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IIqfYNsVEeWZ0c7BHCeEIw">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HVIwsdsVEeWZ0c7BHCeEIw"/>
+        <type xmi:id="_IIqfYdsVEeWZ0c7BHCeEIw" name="Person">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVFtYNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IIqfYtsVEeWZ0c7BHCeEIw" name="name">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HVIJodsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IIqfY9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IIqfZNsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IIqfZdsVEeWZ0c7BHCeEIw" name="birthdate">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HVIJotsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IIqfZtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IIqfZ9sVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IGhKUNsVEeWZ0c7BHCeEIw" name="Wheel" associationsOut="_IJdJkNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HVfWANsVEeWZ0c7BHCeEIw"/>
+    <visualProperties xmi:id="_IGhKUdsVEeWZ0c7BHCeEIw" position="2685.0,-690.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IGhKUtsVEeWZ0c7BHCeEIw" label="+"/>
+    <attributes xmi:id="_IGhKU9sVEeWZ0c7BHCeEIw" name="construction">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HYBsoNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IGhKVNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGhKVdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IGhKVtsVEeWZ0c7BHCeEIw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IGhKV9sVEeWZ0c7BHCeEIw" name="height">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HYBsodsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IGhKWNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGhKWdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IGhKWtsVEeWZ0c7BHCeEIw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IGhKW9sVEeWZ0c7BHCeEIw" name="loadIndex">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HYCTsNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IGhKXNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGhKXdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IGhKXtsVEeWZ0c7BHCeEIw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IGhKX9sVEeWZ0c7BHCeEIw" name="rimDiameter">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HYCTsdsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IGhKYNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGhKYdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IGhKYtsVEeWZ0c7BHCeEIw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IGhKY9sVEeWZ0c7BHCeEIw" name="speedRating">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HYC6wNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IGhKZNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGhKZdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IGhxYNsVEeWZ0c7BHCeEIw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IGhxYdsVEeWZ0c7BHCeEIw" name="width">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HYC6wdsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IGhxYtsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGhxY9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IGhxZNsVEeWZ0c7BHCeEIw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IGhxZdsVEeWZ0c7BHCeEIw" name="Wheel">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HVhyQNsVEeWZ0c7BHCeEIw"/>
+      <keywords xmi:id="_IGhxZtsVEeWZ0c7BHCeEIw" keyword="create"/>
+      <visibility xmi:id="_IGhxZ9sVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGhxaNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IGhxadsVEeWZ0c7BHCeEIw">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HViZVdsVEeWZ0c7BHCeEIw"/>
+        <type xmi:id="_IGhxatsVEeWZ0c7BHCeEIw" name="Wheel">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVfWANsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IGhxa9sVEeWZ0c7BHCeEIw" name="construction">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HVhyQdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGhxbNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGhxbdsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IGhxbtsVEeWZ0c7BHCeEIw" name="height">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HVhyQtsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGhxb9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGhxcNsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IGhxcdsVEeWZ0c7BHCeEIw" name="loadIndex">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HVhyQ9sVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGhxctsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGhxc9sVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IGhxdNsVEeWZ0c7BHCeEIw" name="rimDiameter">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HViZUNsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGhxddsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGhxdtsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IGhxd9sVEeWZ0c7BHCeEIw" name="speedRating">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HViZUdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGhxeNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGhxedsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IGhxetsVEeWZ0c7BHCeEIw" name="width">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HViZUtsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGhxe9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGhxfNsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IJ_VENsVEeWZ0c7BHCeEIw" comments="_IJ8RwNsVEeWZ0c7BHCeEIw" targetConnectionVisual="_IJ8RwdsVEeWZ0c7BHCeEIw" name="Bicycle" generalizations="_IJ7qsNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HUQm8NsVEeWZ0c7BHCeEIw"/>
+    <visualProperties xmi:id="_IJ_VEdsVEeWZ0c7BHCeEIw" position="1773.0,-66.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IJ_VEtsVEeWZ0c7BHCeEIw" label="+"/>
+    <attributes xmi:id="_IJ_VE9sVEeWZ0c7BHCeEIw" name="numberOfGears">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX1fYNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IJ_VFNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IJ_VFdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ_VFtsVEeWZ0c7BHCeEIw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IJ_8INsVEeWZ0c7BHCeEIw" name="Bicycle">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HXObYNsVEeWZ0c7BHCeEIw"/>
+      <keywords xmi:id="_IJ_8IdsVEeWZ0c7BHCeEIw" keyword="create"/>
+      <visibility xmi:id="_IJ_8ItsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IJ_8I9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IJ_8JNsVEeWZ0c7BHCeEIw">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXPphNsVEeWZ0c7BHCeEIw"/>
+        <type xmi:id="_IJ_8JdsVEeWZ0c7BHCeEIw" name="Bicycle">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HUQm8NsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IJ_8JtsVEeWZ0c7BHCeEIw" name="owner">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXPCcNsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJ_8J9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJ_8KNsVEeWZ0c7BHCeEIw" name="Person">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVFtYNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJ_8KdsVEeWZ0c7BHCeEIw" name="brand">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXPCcdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJ_8KtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJ_8K9sVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJ_8LNsVEeWZ0c7BHCeEIw" name="model">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXPCctsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJ_8LdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJ_8LtsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJ_8L9sVEeWZ0c7BHCeEIw" name="numberOfPassengers">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXPCc9sVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJ_8MNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJ_8MdsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJ_8MtsVEeWZ0c7BHCeEIw" name="landVelocity">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXPCdNsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJ_8M9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJ_8NNsVEeWZ0c7BHCeEIw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJ_8NdsVEeWZ0c7BHCeEIw" name="wheels">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXPCddsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJ_8NtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJ_8N9sVEeWZ0c7BHCeEIw" name="Wheel">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVfWANsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJ_8ONsVEeWZ0c7BHCeEIw" name="numberOfWheels">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXPpgNsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJ_8OdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJ_8OtsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJ_8O9sVEeWZ0c7BHCeEIw" name="numberOfGears">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXPpgdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJ_8PNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJ_8PdsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IG_EYNsVEeWZ0c7BHCeEIw" comments="_IG4WsNsVEeWZ0c7BHCeEIw" targetConnectionVisual="_IG49wNsVEeWZ0c7BHCeEIw" name="AirVehicle" generalizations="_IG2hgNsVEeWZ0c7BHCeEIw" subclassedBy="_IG49wdsVEeWZ0c7BHCeEIw _IJEvENsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HUAvUNsVEeWZ0c7BHCeEIw"/>
+    <visualProperties xmi:id="_IG_EYdsVEeWZ0c7BHCeEIw" position="-184.0,-396.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IG_EYtsVEeWZ0c7BHCeEIw" label="+"/>
+    <attributes xmi:id="_IG_EY9sVEeWZ0c7BHCeEIw" name="airVelocity">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX0RQNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IG_EZNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IG_EZdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IG_EZtsVEeWZ0c7BHCeEIw" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IG_EZ9sVEeWZ0c7BHCeEIw" name="AirVehicle">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HXLYENsVEeWZ0c7BHCeEIw"/>
+      <keywords xmi:id="_IG_EaNsVEeWZ0c7BHCeEIw" keyword="create"/>
+      <visibility xmi:id="_IG_EadsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IG_EatsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IG_Ea9sVEeWZ0c7BHCeEIw">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXMmMtsVEeWZ0c7BHCeEIw"/>
+        <type xmi:id="_IG_EbNsVEeWZ0c7BHCeEIw" name="AirVehicle">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HUAvUNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IG_EbdsVEeWZ0c7BHCeEIw" name="owner">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXL_INsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IG_EbtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IG_Eb9sVEeWZ0c7BHCeEIw" name="Person">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVFtYNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IG_EcNsVEeWZ0c7BHCeEIw" name="brand">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXL_IdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IG_EcdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IG_EctsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IG_Ec9sVEeWZ0c7BHCeEIw" name="model">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXL_ItsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IG_EdNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IG_EddsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IG_EdtsVEeWZ0c7BHCeEIw" name="numberOfPassengers">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXL_I9sVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IG_Ed9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IG_EeNsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IG_EedsVEeWZ0c7BHCeEIw" name="airVelocity">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXL_JNsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IG_EetsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IG_Ee9sVEeWZ0c7BHCeEIw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IF_l4NsVEeWZ0c7BHCeEIw" comments="_IF7UcNsVEeWZ0c7BHCeEIw" targetConnectionVisual="_IF77gNsVEeWZ0c7BHCeEIw" name="Winged" generalizations="_IG49wdsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HVnR0NsVEeWZ0c7BHCeEIw"/>
+    <visualProperties xmi:id="_IF_l4dsVEeWZ0c7BHCeEIw" position="-389.0,-167.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IF_l4tsVEeWZ0c7BHCeEIw" label="+"/>
+    <attributes xmi:id="_IF_l49sVEeWZ0c7BHCeEIw" name="numberOfWings">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HYDh0NsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IF_l5NsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IF_l5dsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IF_l5tsVEeWZ0c7BHCeEIw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IF_l59sVEeWZ0c7BHCeEIw" name="Winged">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HXrHUNsVEeWZ0c7BHCeEIw"/>
+      <keywords xmi:id="_IF_l6NsVEeWZ0c7BHCeEIw" keyword="create"/>
+      <visibility xmi:id="_IF_l6dsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IF_l6tsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IF_l69sVEeWZ0c7BHCeEIw">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXsVcNsVEeWZ0c7BHCeEIw"/>
+        <type xmi:id="_IF_l7NsVEeWZ0c7BHCeEIw" name="Winged">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVnR0NsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IF_l7dsVEeWZ0c7BHCeEIw" name="owner">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXrHUdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IF_l7tsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IF_l79sVEeWZ0c7BHCeEIw" name="Person">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVFtYNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IF_l8NsVEeWZ0c7BHCeEIw" name="brand">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXrHUtsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IF_l8dsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IF_l8tsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IF_l89sVEeWZ0c7BHCeEIw" name="model">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXrHU9sVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IF_l9NsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IF_l9dsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IF_l9tsVEeWZ0c7BHCeEIw" name="numberOfPassengers">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXruYNsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IF_l99sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IF_l-NsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IF_l-dsVEeWZ0c7BHCeEIw" name="airVelocity">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXruYdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IF_l-tsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IF_l-9sVEeWZ0c7BHCeEIw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IF_l_NsVEeWZ0c7BHCeEIw" name="numberOfWings">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXruYtsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IF_l_dsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IF_l_tsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IJx5sNsVEeWZ0c7BHCeEIw" comments="_IJu2YNsVEeWZ0c7BHCeEIw" targetConnectionVisual="_IJvdcNsVEeWZ0c7BHCeEIw" name="Engine" associationsIn="_IEOrUNsVEeWZ0c7BHCeEIw" associationsOut="_II6XANsVEeWZ0c7BHCeEIw _IGriYNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HUsr0NsVEeWZ0c7BHCeEIw"/>
+    <visualProperties xmi:id="_IJx5sdsVEeWZ0c7BHCeEIw" position="557.0,388.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IJx5stsVEeWZ0c7BHCeEIw" label="+"/>
+    <attributes xmi:id="_IJx5s9sVEeWZ0c7BHCeEIw" name="fuel">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX37oNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IJx5tNsVEeWZ0c7BHCeEIw" label="~"/>
+      <cardinality xmi:id="_IJx5tdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IJx5ttsVEeWZ0c7BHCeEIw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJx5t9sVEeWZ0c7BHCeEIw" name="horsepower">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX4isNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IJx5uNsVEeWZ0c7BHCeEIw" label="~"/>
+      <cardinality xmi:id="_IJx5udsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IJx5utsVEeWZ0c7BHCeEIw" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJx5u9sVEeWZ0c7BHCeEIw" name="numberCylinders">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX5JwNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IJx5vNsVEeWZ0c7BHCeEIw" label="~"/>
+      <cardinality xmi:id="_IJx5vdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IJx5vtsVEeWZ0c7BHCeEIw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IJx5v9sVEeWZ0c7BHCeEIw" name="Engine">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HUuhANsVEeWZ0c7BHCeEIw"/>
+      <keywords xmi:id="_IJx5wNsVEeWZ0c7BHCeEIw" keyword="create"/>
+      <visibility xmi:id="_IJx5wdsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IJx5wtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IJx5w9sVEeWZ0c7BHCeEIw">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HUw9QdsVEeWZ0c7BHCeEIw"/>
+        <type xmi:id="_IJx5xNsVEeWZ0c7BHCeEIw" name="Engine">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HUsr0NsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IJx5xdsVEeWZ0c7BHCeEIw" name="fuel">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HUvIENsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJx5xtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJx5x9sVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJx5yNsVEeWZ0c7BHCeEIw" name="horsepower">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HUvIEdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJx5ydsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJx5ytsVEeWZ0c7BHCeEIw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJx5y9sVEeWZ0c7BHCeEIw" name="numberCylinders">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HUvIEtsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJx5zNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJx5zdsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IJIZcNsVEeWZ0c7BHCeEIw" comments="_IJFWINsVEeWZ0c7BHCeEIw" targetConnectionVisual="_IJFWIdsVEeWZ0c7BHCeEIw" name="Copter" generalizations="_IJEvENsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HUgekNsVEeWZ0c7BHCeEIw"/>
+    <visualProperties xmi:id="_IJIZcdsVEeWZ0c7BHCeEIw" position="-705.0,-9.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IJIZctsVEeWZ0c7BHCeEIw" label="+"/>
+    <attributes xmi:id="_IJIZc9sVEeWZ0c7BHCeEIw" name="numberOfRotors">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX3UkNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IJIZdNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IJIZddsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IJIZdtsVEeWZ0c7BHCeEIw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IJIZd9sVEeWZ0c7BHCeEIw" name="Copter">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HXVJENsVEeWZ0c7BHCeEIw"/>
+      <keywords xmi:id="_IJIZeNsVEeWZ0c7BHCeEIw" keyword="create"/>
+      <visibility xmi:id="_IJIZedsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IJIZetsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IJIZe9sVEeWZ0c7BHCeEIw">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXWXMtsVEeWZ0c7BHCeEIw"/>
+        <type xmi:id="_IJIZfNsVEeWZ0c7BHCeEIw" name="Copter">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HUgekNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IJIZfdsVEeWZ0c7BHCeEIw" name="owner">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXVJEdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJIZftsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJIZf9sVEeWZ0c7BHCeEIw" name="Person">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVFtYNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJIZgNsVEeWZ0c7BHCeEIw" name="brand">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXVwINsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJIZgdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJIZgtsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJIZg9sVEeWZ0c7BHCeEIw" name="model">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXVwIdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJIZhNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJIZhdsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJIZhtsVEeWZ0c7BHCeEIw" name="numberOfPassengers">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXVwItsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJIZh9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJIZiNsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJIZidsVEeWZ0c7BHCeEIw" name="airVelocity">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXVwI9sVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJIZitsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJIZi9sVEeWZ0c7BHCeEIw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJIZjNsVEeWZ0c7BHCeEIw" name="numberOfRotors">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXVwJNsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJIZjdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJIZjtsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_II-ocNsVEeWZ0c7BHCeEIw" comments="_II5v8NsVEeWZ0c7BHCeEIw" targetConnectionVisual="_II5v8dsVEeWZ0c7BHCeEIw" name="Car" associationsIn="_II6XANsVEeWZ0c7BHCeEIw" generalizations="_IJe-wNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HUXUoNsVEeWZ0c7BHCeEIw"/>
+    <visualProperties xmi:id="_II-ocdsVEeWZ0c7BHCeEIw" position="2378.0,-205.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_II-octsVEeWZ0c7BHCeEIw" label="+"/>
+    <attributes xmi:id="_II-oc9sVEeWZ0c7BHCeEIw" name="engine">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX2GcNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_II-odNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_II-oddsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_II-odtsVEeWZ0c7BHCeEIw" name="Engine">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HUsr0NsVEeWZ0c7BHCeEIw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_II-od9sVEeWZ0c7BHCeEIw" name="numberOfDoors">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX2tgNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_II-oeNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_II-oedsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_II-oetsVEeWZ0c7BHCeEIw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_II-oe9sVEeWZ0c7BHCeEIw" name="Car">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HXSFwNsVEeWZ0c7BHCeEIw"/>
+      <keywords xmi:id="_II-ofNsVEeWZ0c7BHCeEIw" keyword="create"/>
+      <visibility xmi:id="_II-ofdsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_II-oftsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_II-of9sVEeWZ0c7BHCeEIw">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXTT4tsVEeWZ0c7BHCeEIw"/>
+        <type xmi:id="_II-ogNsVEeWZ0c7BHCeEIw" name="Car">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HUXUoNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_II-ogdsVEeWZ0c7BHCeEIw" name="owner">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXSFwdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_II-ogtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_II-og9sVEeWZ0c7BHCeEIw" name="Person">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVFtYNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_II-ohNsVEeWZ0c7BHCeEIw" name="brand">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXSFwtsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_II-ohdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_II-ohtsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_II-oh9sVEeWZ0c7BHCeEIw" name="model">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXSFw9sVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_II-oiNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_II-oidsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_II-oitsVEeWZ0c7BHCeEIw" name="numberOfPassengers">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXSFxNsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_II-oi9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_II-ojNsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_II-ojdsVEeWZ0c7BHCeEIw" name="landVelocity">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXSs0NsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_II-ojtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_II-oj9sVEeWZ0c7BHCeEIw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_II-okNsVEeWZ0c7BHCeEIw" name="wheels">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXSs0dsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_II-okdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_II-oktsVEeWZ0c7BHCeEIw" name="Wheel">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVfWANsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_II-ok9sVEeWZ0c7BHCeEIw" name="numberOfWheels">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXSs0tsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_II-olNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_II-oldsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_II-oltsVEeWZ0c7BHCeEIw" name="engine">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXSs09sVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_II-ol9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_II-omNsVEeWZ0c7BHCeEIw" name="Engine">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HUsr0NsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_II-omdsVEeWZ0c7BHCeEIw" name="numberOfDoors">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXSs1NsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_II-omtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_II-om9sVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_hF4NENskEeWZ0c7BHCeEIw" name="myMethod">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_hFz7oNskEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_hF4NEtskEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_hF4NE9skEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IESVsNsVEeWZ0c7BHCeEIw" comments="_IDx_YNsVEeWZ0c7BHCeEIw" targetConnectionVisual="_IDz0kNsVEeWZ0c7BHCeEIw" name="SaillingBoat" associationsOut="_IEOrUNsVEeWZ0c7BHCeEIw" generalizations="_IJOgEdsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HVKl4NsVEeWZ0c7BHCeEIw"/>
+    <visualProperties xmi:id="_IESVsdsVEeWZ0c7BHCeEIw" position="726.0,-24.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IESVstsVEeWZ0c7BHCeEIw" label="+"/>
+    <attributes xmi:id="_IESVs9sVEeWZ0c7BHCeEIw" defaultValue="null" name="engine">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX9bMNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IESVtNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IESVtdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IESVttsVEeWZ0c7BHCeEIw" name="Engine">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HUsr0NsVEeWZ0c7BHCeEIw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IESVt9sVEeWZ0c7BHCeEIw" name="numberOfSails">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX-CQNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IES8wNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IES8wdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IES8wtsVEeWZ0c7BHCeEIw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IES8w9sVEeWZ0c7BHCeEIw" name="SaillingBoat">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HXhWUNsVEeWZ0c7BHCeEIw"/>
+      <keywords xmi:id="_IES8xNsVEeWZ0c7BHCeEIw" keyword="create"/>
+      <visibility xmi:id="_IES8xdsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IES8xtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IES8x9sVEeWZ0c7BHCeEIw">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXikctsVEeWZ0c7BHCeEIw"/>
+        <type xmi:id="_IES8yNsVEeWZ0c7BHCeEIw" name="SaillingBoat">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVKl4NsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IES8ydsVEeWZ0c7BHCeEIw" name="owner">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXhWUdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IES8ytsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IES8y9sVEeWZ0c7BHCeEIw" name="Person">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVFtYNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IES8zNsVEeWZ0c7BHCeEIw" name="brand">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXhWUtsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IES8zdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IES8ztsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IES8z9sVEeWZ0c7BHCeEIw" name="model">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXhWU9sVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IEUK4NsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IEUK4dsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IEUK4tsVEeWZ0c7BHCeEIw" name="numberOfPassengers">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXh9YNsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IEUK49sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IEUK5NsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IEUK5dsVEeWZ0c7BHCeEIw" name="waterVelocity">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXh9YdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IEUK5tsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IEUK59sVEeWZ0c7BHCeEIw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IEUK6NsVEeWZ0c7BHCeEIw" name="size">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXh9YtsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IEUK6dsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IEUK6tsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IEUK69sVEeWZ0c7BHCeEIw" name="numberOfSails">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXh9Y9sVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IEUK7NsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IEUK7dsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IEUK7tsVEeWZ0c7BHCeEIw" name="engine">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXh9ZNsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IEUK79sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IEUK8NsVEeWZ0c7BHCeEIw" name="Engine">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HUsr0NsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IJXC8NsVEeWZ0c7BHCeEIw" comments="_IJN5ANsVEeWZ0c7BHCeEIw" targetConnectionVisual="_IJN5AdsVEeWZ0c7BHCeEIw" name="WaterVehicle" generalizations="_IJNR8NsVEeWZ0c7BHCeEIw" subclassedBy="_IJOgENsVEeWZ0c7BHCeEIw _IJOgEdsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HVadgNsVEeWZ0c7BHCeEIw"/>
+    <visualProperties xmi:id="_IJXC8dsVEeWZ0c7BHCeEIw" position="823.0,-392.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IJXC8tsVEeWZ0c7BHCeEIw" label="+"/>
+    <attributes xmi:id="_IJXC89sVEeWZ0c7BHCeEIw" name="waterVelocity">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HYAegNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IJXC9NsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IJXC9dsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IJXC9tsVEeWZ0c7BHCeEIw" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJXC99sVEeWZ0c7BHCeEIw" name="size">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HYBFkNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IJXC-NsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IJXC-dsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IJXC-tsVEeWZ0c7BHCeEIw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IJXC-9sVEeWZ0c7BHCeEIw" name="WaterVehicle">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HXnc8NsVEeWZ0c7BHCeEIw"/>
+      <keywords xmi:id="_IJXC_NsVEeWZ0c7BHCeEIw" keyword="create"/>
+      <visibility xmi:id="_IJXC_dsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IJXC_tsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IJXC_9sVEeWZ0c7BHCeEIw">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXorEdsVEeWZ0c7BHCeEIw"/>
+        <type xmi:id="_IJXDANsVEeWZ0c7BHCeEIw" name="WaterVehicle">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVadgNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IJXDAdsVEeWZ0c7BHCeEIw" name="owner">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXnc8dsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJXDAtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJXDA9sVEeWZ0c7BHCeEIw" name="Person">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVFtYNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJXDBNsVEeWZ0c7BHCeEIw" name="brand">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXnc8tsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJXDBdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJXDBtsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJXDB9sVEeWZ0c7BHCeEIw" name="model">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXoEANsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJXDCNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJXDCdsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJXDCtsVEeWZ0c7BHCeEIw" name="numberOfPassengers">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXoEAdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJXDC9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJXDDNsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJXDDdsVEeWZ0c7BHCeEIw" name="waterVelocity">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXoEAtsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJXDDtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJXDD9sVEeWZ0c7BHCeEIw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJXDENsVEeWZ0c7BHCeEIw" name="size">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXoEA9sVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IJXDEdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IJXDEtsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IGLzINsVEeWZ0c7BHCeEIw" comments="_IGFsgNsVEeWZ0c7BHCeEIw" targetConnectionVisual="_IGFsgdsVEeWZ0c7BHCeEIw" name="Vehicle" associationsIn="_IGGTkNsVEeWZ0c7BHCeEIw" subclassedBy="_IG2hgNsVEeWZ0c7BHCeEIw _IJNR8NsVEeWZ0c7BHCeEIw _IJdwoNsVEeWZ0c7BHCeEIw">
+    <modelElement href="06.vehicle%20-%20inheritance.uml#_HVR6oNsVEeWZ0c7BHCeEIw"/>
+    <visualProperties xmi:id="_IGLzIdsVEeWZ0c7BHCeEIw" position="839.0,-712.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IGLzItsVEeWZ0c7BHCeEIw" label="+"/>
+    <attributes xmi:id="_IGLzI9sVEeWZ0c7BHCeEIw" name="brand">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX-pUNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IGLzJNsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGLzJdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IGLzJtsVEeWZ0c7BHCeEIw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IGMaMNsVEeWZ0c7BHCeEIw" name="model">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX_QYNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IGMaMdsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGMaMtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IGMaM9sVEeWZ0c7BHCeEIw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IGMaNNsVEeWZ0c7BHCeEIw" name="numberOfPassengers">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX_QYdsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IGMaNdsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGMaNtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IGMaN9sVEeWZ0c7BHCeEIw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IGMaONsVEeWZ0c7BHCeEIw" name="owner">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HX_3cNsVEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_IGMaOdsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGMaOtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <type xmi:id="_IGMaO9sVEeWZ0c7BHCeEIw" name="Person">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HVFtYNsVEeWZ0c7BHCeEIw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IGMaPNsVEeWZ0c7BHCeEIw" name="Vehicle">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HVU98NsVEeWZ0c7BHCeEIw"/>
+      <keywords xmi:id="_IGMaPdsVEeWZ0c7BHCeEIw" keyword="create"/>
+      <visibility xmi:id="_IGMaPtsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGMaP9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IGMaQNsVEeWZ0c7BHCeEIw">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HVVlA9sVEeWZ0c7BHCeEIw"/>
+        <type xmi:id="_IGMaQdsVEeWZ0c7BHCeEIw" name="Vehicle">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVR6oNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IGMaQtsVEeWZ0c7BHCeEIw" name="brand">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HVU98dsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGMaQ9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGMaRNsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IGMaRdsVEeWZ0c7BHCeEIw" name="model">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HVU98tsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGMaRtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGMaR9sVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IGMaSNsVEeWZ0c7BHCeEIw" name="numberOfPassengers">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HVVlANsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGMaSdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGMaStsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IGMaS9sVEeWZ0c7BHCeEIw" name="Vehicle">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_HXlAsNsVEeWZ0c7BHCeEIw"/>
+      <keywords xmi:id="_IGMaTNsVEeWZ0c7BHCeEIw" keyword="create"/>
+      <visibility xmi:id="_IGMaTdsVEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_IGMaTtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IGMaT9sVEeWZ0c7BHCeEIw">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXlnwtsVEeWZ0c7BHCeEIw"/>
+        <type xmi:id="_IGMaUNsVEeWZ0c7BHCeEIw" name="Vehicle">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVR6oNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IGMaUdsVEeWZ0c7BHCeEIw" name="owner">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXlAsdsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGMaUtsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGMaU9sVEeWZ0c7BHCeEIw" name="Person">
+          <modelElement href="06.vehicle%20-%20inheritance.uml#_HVFtYNsVEeWZ0c7BHCeEIw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IGMaVNsVEeWZ0c7BHCeEIw" name="brand">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXlAstsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGMaVdsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGMaVtsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IGMaV9sVEeWZ0c7BHCeEIw" name="model">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXlAs9sVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGMaWNsVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGMaWdsVEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IGMaWtsVEeWZ0c7BHCeEIw" name="numberOfPassengers">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_HXlAtNsVEeWZ0c7BHCeEIw"/>
+        <cardinality xmi:id="_IGMaW9sVEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+        <type xmi:id="_IGMaXNsVEeWZ0c7BHCeEIw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UqjnwNsXEeWZ0c7BHCeEIw" name="toString">
+      <modelElement href="06.vehicle%20-%20inheritance.uml#_UqRT4NsXEeWZ0c7BHCeEIw"/>
+      <visibility xmi:id="_UqjnwdsXEeWZ0c7BHCeEIw" label="+"/>
+      <cardinality xmi:id="_UqjnwtsXEeWZ0c7BHCeEIw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Uqjnw9sXEeWZ0c7BHCeEIw">
+        <modelElement href="06.vehicle%20-%20inheritance.uml#_UqYooNsXEeWZ0c7BHCeEIw"/>
+        <type xmi:id="_UqjnxNsXEeWZ0c7BHCeEIw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

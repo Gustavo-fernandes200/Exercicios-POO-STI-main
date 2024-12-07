@@ -1,0 +1,11 @@
+.directory
+.metadata/*
+RemoteSystemsTempFiles/*
+.recommenders/*
+*.class
+.idea/*
+venv/
+*ipynb_checkpoints*
+*.pic
+/.project
+.DS_Store

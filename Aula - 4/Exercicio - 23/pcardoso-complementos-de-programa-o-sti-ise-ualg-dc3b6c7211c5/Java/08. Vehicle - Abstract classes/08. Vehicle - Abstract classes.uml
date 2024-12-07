@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_cplZ4OPVEeWLvtKsMC9WKg" name="_08__Vehicle___Abstract_classes">
+    <eAnnotations xmi:id="_dtFeQOPVEeWLvtKsMC9WKg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_dtFeQePVEeWLvtKsMC9WKg" source="codegen">
+        <details xmi:id="_dtFeQuPVEeWLvtKsMC9WKg" key="codegenDirectory" value="/08. Vehicle - Abstract classes/src"/>
+        <details xmi:id="_e1OLAOPVEeWLvtKsMC9WKg" key="AssociatedSourceCode" value="/08. Vehicle - Abstract classes/src/mainProgram.java;3970837639/1;/08. Vehicle - Abstract classes/src/LandVehicle.java;2591510046/1;/08. Vehicle - Abstract classes/src/Person.java;506198357/1;/08. Vehicle - Abstract classes/src/Vehicle.java;4003787050/1;/08. Vehicle - Abstract classes/src/Car.java;2396839604/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_eNBikOPVEeWLvtKsMC9WKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_eNBikePVEeWLvtKsMC9WKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_eNCJoOPVEeWLvtKsMC9WKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_eNCJoePVEeWLvtKsMC9WKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_eNCJouPVEeWLvtKsMC9WKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_eNCJo-PVEeWLvtKsMC9WKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_eNCJpOPVEeWLvtKsMC9WKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_eNCwsOPVEeWLvtKsMC9WKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_eNDXwOPVEeWLvtKsMC9WKg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_eM6N0OPVEeWLvtKsMC9WKg" name="mainProgram">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_eQUHIOPVEeWLvtKsMC9WKg" name="main" specification="_eND-0OPVEeWLvtKsMC9WKg">
+        <ownedParameter xmi:id="_eQUHIePVEeWLvtKsMC9WKg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eQUHIuPVEeWLvtKsMC9WKg" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Person owner = new Person(&quot;Margarida&quot;, &quot;1998/12/12&quot;);
+ 
+ Vehicle v;
+ LandVehicle lv;
+ Car c;
+ 
+ // v = new Vehicle(owner, &quot;Audi&quot;, &quot;A4&quot;, 5); //ERROR: Cannot instantiate the type Vehicle
+ // lv = new LandVehicle(owner, &quot;Audi&quot;, &quot;A4&quot;, 5, 200, 4); // ERRO: Cannot instantiate the type LandVehicle
+ 
+ c = new Car(owner, &quot;Audi&quot;, &quot;A4&quot;, 5, 200, 4, 5);
+ v = new Car(owner, &quot;Audi&quot;, &quot;A4&quot;, 5, 200, 4, 5);
+ lv = new Car(owner, &quot;Audi&quot;, &quot;A4&quot;, 5, 200, 4, 5);
+ 
+ System.out.println(v.vehicleInfo());
+ System.out.println(lv.vehicleInfo());
+ System.out.println(c.vehicleInfo());
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_eND-0OPVEeWLvtKsMC9WKg" name="main" isStatic="true" method="_eQUHIOPVEeWLvtKsMC9WKg">
+        <ownedParameter xmi:id="_eNEl4OPVEeWLvtKsMC9WKg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eNHCIOPVEeWLvtKsMC9WKg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_eNLTkOPVEeWLvtKsMC9WKg" name="LandVehicle" visibility="package" isAbstract="true">
+      <ownedComment xmi:id="_eQshoOPVEeWLvtKsMC9WKg">
+        <body>The Class LandVehicle.</body>
+      </ownedComment>
+      <generalization xmi:id="_ePlHUOPVEeWLvtKsMC9WKg" general="_eNgDsOPVEeWLvtKsMC9WKg"/>
+      <ownedAttribute xmi:id="_eP4CQOPVEeWLvtKsMC9WKg" name="landVelocity">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_eP5QYOPVEeWLvtKsMC9WKg" name="numberOfWheels">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_eQd4IOPVEeWLvtKsMC9WKg" name="LandVehicle" specification="_ePavQOPVEeWLvtKsMC9WKg">
+        <ownedParameter xmi:id="_eQd4IePVEeWLvtKsMC9WKg" name="owner" type="_eNZ9EOPVEeWLvtKsMC9WKg"/>
+        <ownedParameter xmi:id="_eQd4IuPVEeWLvtKsMC9WKg" name="brand">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQd4I-PVEeWLvtKsMC9WKg" name="model">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQd4JOPVEeWLvtKsMC9WKg" name="numberOfPassengers">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQd4JePVEeWLvtKsMC9WKg" name="landVelocity">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQd4JuPVEeWLvtKsMC9WKg" name="numberOfWheels">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQd4J-PVEeWLvtKsMC9WKg" type="_eNLTkOPVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>super(owner, brand, model, numberOfPassengers);
+ this.landVelocity = landVelocity;
+ this.numberOfWheels = numberOfWheels;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_eQfGQOPVEeWLvtKsMC9WKg" name="LandVehicle" specification="_ePdykOPVEeWLvtKsMC9WKg">
+        <ownedParameter xmi:id="_eQfGQePVEeWLvtKsMC9WKg" name="owner" type="_eNZ9EOPVEeWLvtKsMC9WKg"/>
+        <ownedParameter xmi:id="_eQfGQuPVEeWLvtKsMC9WKg" name="brand">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQfGQ-PVEeWLvtKsMC9WKg" name="model">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQfGROPVEeWLvtKsMC9WKg" name="numberOfPassengers">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQfGRePVEeWLvtKsMC9WKg" name="numberOfWheels">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQfGRuPVEeWLvtKsMC9WKg" type="_eNLTkOPVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>super(owner, brand, model, numberOfPassengers);
+ 
+ this.numberOfWheels = numberOfWheels;
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_eNTPYOPVEeWLvtKsMC9WKg" name="vehicleInfo" visibility="package" isAbstract="true">
+        <ownedParameter xmi:id="_eNUdgOPVEeWLvtKsMC9WKg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ePavQOPVEeWLvtKsMC9WKg" name="LandVehicle" method="_eQd4IOPVEeWLvtKsMC9WKg">
+        <eAnnotations xmi:id="_ePckcOPVEeWLvtKsMC9WKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_ePckcePVEeWLvtKsMC9WKg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_ePbWUOPVEeWLvtKsMC9WKg" name="owner" type="_eNZ9EOPVEeWLvtKsMC9WKg"/>
+        <ownedParameter xmi:id="_ePbWUePVEeWLvtKsMC9WKg" name="brand">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePbWUuPVEeWLvtKsMC9WKg" name="model">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePbWU-PVEeWLvtKsMC9WKg" name="numberOfPassengers">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePbWVOPVEeWLvtKsMC9WKg" name="landVelocity">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePb9YOPVEeWLvtKsMC9WKg" name="numberOfWheels">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePckcuPVEeWLvtKsMC9WKg" type="_eNLTkOPVEeWLvtKsMC9WKg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ePdykOPVEeWLvtKsMC9WKg" name="LandVehicle" method="_eQfGQOPVEeWLvtKsMC9WKg">
+        <eAnnotations xmi:id="_ePg14OPVEeWLvtKsMC9WKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_ePhc8OPVEeWLvtKsMC9WKg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_ePdykePVEeWLvtKsMC9WKg" name="owner" type="_eNZ9EOPVEeWLvtKsMC9WKg"/>
+        <ownedParameter xmi:id="_ePdykuPVEeWLvtKsMC9WKg" name="brand">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePdyk-PVEeWLvtKsMC9WKg" name="model">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePdylOPVEeWLvtKsMC9WKg" name="numberOfPassengers">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePeZoOPVEeWLvtKsMC9WKg" name="numberOfWheels">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePj5MOPVEeWLvtKsMC9WKg" type="_eNLTkOPVEeWLvtKsMC9WKg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_eNZ9EOPVEeWLvtKsMC9WKg" name="Person">
+      <ownedAttribute xmi:id="_eP6egOPVEeWLvtKsMC9WKg" name="birthdate">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_eP7FkOPVEeWLvtKsMC9WKg" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_eQftUOPVEeWLvtKsMC9WKg" name="Person" specification="_eNcZUOPVEeWLvtKsMC9WKg">
+        <ownedParameter xmi:id="_eQftUePVEeWLvtKsMC9WKg" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQftUuPVEeWLvtKsMC9WKg" name="birthdate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQftU-PVEeWLvtKsMC9WKg" type="_eNZ9EOPVEeWLvtKsMC9WKg" direction="return"/>
+        <language>java</language>
+        <body>super();
+ this.name = name;
+ this.birthdate = birthdate;
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_eNcZUOPVEeWLvtKsMC9WKg" name="Person" method="_eQftUOPVEeWLvtKsMC9WKg">
+        <eAnnotations xmi:id="_eNdAYOPVEeWLvtKsMC9WKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_eNdAYePVEeWLvtKsMC9WKg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_eNcZUePVEeWLvtKsMC9WKg" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eNcZUuPVEeWLvtKsMC9WKg" name="birthdate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eNdAYuPVEeWLvtKsMC9WKg" type="_eNZ9EOPVEeWLvtKsMC9WKg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_eNgDsOPVEeWLvtKsMC9WKg" name="Vehicle" visibility="package" isAbstract="true">
+      <ownedComment xmi:id="_eQshoePVEeWLvtKsMC9WKg">
+        <body>The Class Vehicle.</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_eP7soOPVEeWLvtKsMC9WKg" name="brand">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_eP8TsOPVEeWLvtKsMC9WKg" name="model">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_eP86wOPVEeWLvtKsMC9WKg" name="numberOfPassengers">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_eP86wePVEeWLvtKsMC9WKg" name="owner" type="_eNZ9EOPVEeWLvtKsMC9WKg" association="_eQ5V8OPVEeWLvtKsMC9WKg"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_eQgUYOPVEeWLvtKsMC9WKg" name="Vehicle" specification="_ePoKoOPVEeWLvtKsMC9WKg">
+        <ownedParameter xmi:id="_eQgUYePVEeWLvtKsMC9WKg" name="owner" type="_eNZ9EOPVEeWLvtKsMC9WKg"/>
+        <ownedParameter xmi:id="_eQgUYuPVEeWLvtKsMC9WKg" name="brand">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQgUY-PVEeWLvtKsMC9WKg" name="model">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQgUZOPVEeWLvtKsMC9WKg" name="numberOfPassengers">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQgUZePVEeWLvtKsMC9WKg" type="_eNgDsOPVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>super();
+ this.owner = owner;
+ this.brand = brand;
+ this.model = model;
+ this.numberOfPassengers = numberOfPassengers;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_eQg7cOPVEeWLvtKsMC9WKg" name="Vehicle" specification="_eNjuEOPVEeWLvtKsMC9WKg">
+        <ownedParameter xmi:id="_eQg7cePVEeWLvtKsMC9WKg" name="brand">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQg7cuPVEeWLvtKsMC9WKg" name="model">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQg7c-PVEeWLvtKsMC9WKg" name="numberOfPassengers">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQg7dOPVEeWLvtKsMC9WKg" type="_eNgDsOPVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>super();
+ this.brand = brand;
+ this.model = model;
+ this.numberOfPassengers = numberOfPassengers;
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_eNjuEOPVEeWLvtKsMC9WKg" name="Vehicle" method="_eQg7cOPVEeWLvtKsMC9WKg">
+        <eAnnotations xmi:id="_eNkVIuPVEeWLvtKsMC9WKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_eNkVI-PVEeWLvtKsMC9WKg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_eNjuEePVEeWLvtKsMC9WKg" name="brand">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eNkVIOPVEeWLvtKsMC9WKg" name="model">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eNkVIePVEeWLvtKsMC9WKg" name="numberOfPassengers">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eNk8MOPVEeWLvtKsMC9WKg" type="_eNgDsOPVEeWLvtKsMC9WKg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_eNljQOPVEeWLvtKsMC9WKg" name="vehicleInfo" visibility="package" isAbstract="true">
+        <ownedParameter xmi:id="_eNmKUOPVEeWLvtKsMC9WKg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ePoKoOPVEeWLvtKsMC9WKg" name="Vehicle" method="_eQgUYOPVEeWLvtKsMC9WKg">
+        <eAnnotations xmi:id="_ePoxsuPVEeWLvtKsMC9WKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_ePoxs-PVEeWLvtKsMC9WKg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_ePoKoePVEeWLvtKsMC9WKg" name="owner" type="_eNZ9EOPVEeWLvtKsMC9WKg"/>
+        <ownedParameter xmi:id="_ePoKouPVEeWLvtKsMC9WKg" name="brand">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePoxsOPVEeWLvtKsMC9WKg" name="model">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePoxsePVEeWLvtKsMC9WKg" name="numberOfPassengers">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePoxtOPVEeWLvtKsMC9WKg" type="_eNgDsOPVEeWLvtKsMC9WKg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_eNrp4OPVEeWLvtKsMC9WKg" name="Car">
+      <ownedComment xmi:id="_eQ59AOPVEeWLvtKsMC9WKg">
+        <body>The Class Car.</body>
+      </ownedComment>
+      <generalization xmi:id="_ePwGcOPVEeWLvtKsMC9WKg" general="_eNLTkOPVEeWLvtKsMC9WKg"/>
+      <ownedAttribute xmi:id="_eP-I4OPVEeWLvtKsMC9WKg" name="filledFuel">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_eQBzQOPVEeWLvtKsMC9WKg" name="kms">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_eQBzQePVEeWLvtKsMC9WKg" name="numberOfDoors">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_eQiJkOPVEeWLvtKsMC9WKg" name="Car" specification="_ePtqMOPVEeWLvtKsMC9WKg">
+        <ownedParameter xmi:id="_eQiJkePVEeWLvtKsMC9WKg" name="owner" type="_eNZ9EOPVEeWLvtKsMC9WKg"/>
+        <ownedParameter xmi:id="_eQiJkuPVEeWLvtKsMC9WKg" name="brand">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQiJk-PVEeWLvtKsMC9WKg" name="model">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQiJlOPVEeWLvtKsMC9WKg" name="numberOfPassengers">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQiJlePVEeWLvtKsMC9WKg" name="landVelocity">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQiJluPVEeWLvtKsMC9WKg" name="numberOfWheels">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQiJl-PVEeWLvtKsMC9WKg" name="numberOfDoors">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQiJmOPVEeWLvtKsMC9WKg" type="_eNrp4OPVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>super(owner, brand, model, numberOfPassengers, landVelocity, numberOfWheels);
+ 
+ this.numberOfDoors = numberOfDoors;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_eQiwoOPVEeWLvtKsMC9WKg" name="consumption" specification="_eNutMOPVEeWLvtKsMC9WKg">
+        <ownedParameter xmi:id="_eQiwoePVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return this.filledFuel / this.kms * 100;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_eQlM4OPVEeWLvtKsMC9WKg" name="consumption" specification="_eNv7UOPVEeWLvtKsMC9WKg">
+        <ownedParameter xmi:id="_eQlM4ePVEeWLvtKsMC9WKg" name="kms">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQlM4uPVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return this.filledFuel / this.kms * kms;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_eQqscOPVEeWLvtKsMC9WKg" name="consumption" specification="_eNxJcOPVEeWLvtKsMC9WKg">
+        <ownedParameter xmi:id="_eQqscePVEeWLvtKsMC9WKg" name="kms">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQqscuPVEeWLvtKsMC9WKg" name="loadFactor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eQqsc-PVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return this.filledFuel / this.kms * kms * loadFactor;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_eQrTgOPVEeWLvtKsMC9WKg" name="vehicleInfo" specification="_eN0z0OPVEeWLvtKsMC9WKg">
+        <ownedParameter xmi:id="_eQrTgePVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return &quot;This vehicle is a &quot; + this.getBrand() + &quot; &quot; + this.getModel() + &quot; has &quot; + this.getNumberOfWheels()
+     + &quot; wheels and is owned by &quot; + this.getOwner().getName();
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_eNutMOPVEeWLvtKsMC9WKg" name="consumption" method="_eQiwoOPVEeWLvtKsMC9WKg">
+        <ownedParameter xmi:id="_eNvUQOPVEeWLvtKsMC9WKg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_eNv7UOPVEeWLvtKsMC9WKg" name="consumption" method="_eQlM4OPVEeWLvtKsMC9WKg">
+        <ownedParameter xmi:id="_eNv7UePVEeWLvtKsMC9WKg" name="kms">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eNwiYOPVEeWLvtKsMC9WKg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_eNxJcOPVEeWLvtKsMC9WKg" name="consumption" method="_eQqscOPVEeWLvtKsMC9WKg">
+        <ownedParameter xmi:id="_eNzlsOPVEeWLvtKsMC9WKg" name="kms">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eN0MwOPVEeWLvtKsMC9WKg" name="loadFactor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_eN0MwePVEeWLvtKsMC9WKg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_eN0z0OPVEeWLvtKsMC9WKg" name="vehicleInfo" method="_eQrTgOPVEeWLvtKsMC9WKg">
+        <ownedParameter xmi:id="_eN1a4OPVEeWLvtKsMC9WKg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ePtqMOPVEeWLvtKsMC9WKg" name="Car" method="_eQiJkOPVEeWLvtKsMC9WKg">
+        <eAnnotations xmi:id="_ePu4UuPVEeWLvtKsMC9WKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_ePu4U-PVEeWLvtKsMC9WKg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_ePtqMePVEeWLvtKsMC9WKg" name="owner" type="_eNZ9EOPVEeWLvtKsMC9WKg"/>
+        <ownedParameter xmi:id="_ePuRQOPVEeWLvtKsMC9WKg" name="brand">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePuRQePVEeWLvtKsMC9WKg" name="model">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePuRQuPVEeWLvtKsMC9WKg" name="numberOfPassengers">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePuRQ-PVEeWLvtKsMC9WKg" name="landVelocity">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePu4UOPVEeWLvtKsMC9WKg" name="numberOfWheels">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePu4UePVEeWLvtKsMC9WKg" name="numberOfDoors">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ePu4VOPVEeWLvtKsMC9WKg" type="_eNrp4OPVEeWLvtKsMC9WKg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_eQ5V8OPVEeWLvtKsMC9WKg" name="" memberEnd="_eP86wePVEeWLvtKsMC9WKg _eQ5V8ePVEeWLvtKsMC9WKg">
+      <ownedEnd xmi:id="_eQ5V8ePVEeWLvtKsMC9WKg" name="" type="_eNgDsOPVEeWLvtKsMC9WKg" association="_eQ5V8OPVEeWLvtKsMC9WKg"/>
+    </packagedElement>
+    <profileApplication xmi:id="_dtJIoOPVEeWLvtKsMC9WKg">
+      <eAnnotations xmi:id="_dtML8OPVEeWLvtKsMC9WKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_dtSSkOPVEeWLvtKsMC9WKg" base_Package="_cplZ4OPVEeWLvtKsMC9WKg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+</xmi:XMI>

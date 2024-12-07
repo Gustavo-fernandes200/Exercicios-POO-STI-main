@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_haONANC-EeW6X_Jxb8Wqeg" name="Ex_Banco">
+    <eAnnotations xmi:id="_hjv8cNC-EeW6X_Jxb8Wqeg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_hjv8cdC-EeW6X_Jxb8Wqeg" source="codegen">
+        <details xmi:id="_hjv8ctC-EeW6X_Jxb8Wqeg" key="codegenDirectory" value="/Ex.Banco/src"/>
+        <details xmi:id="_A5ZXYNDEEeWYiIlaiWSqzw" key="AssociatedSourceCode" value="/Ex.Bank/src/Date.java;1328102961/1;/Ex.Bank/src/Employee.java;4234118312/1;/Ex.Bank/src/MainProgram.java;3345566309/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_AyTQ4NDEEeWYiIlaiWSqzw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_AyUfANDEEeWYiIlaiWSqzw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_AyUfAdDEEeWYiIlaiWSqzw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_AyUfAtDEEeWYiIlaiWSqzw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_AyUfA9DEEeWYiIlaiWSqzw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_AyVGENDEEeWYiIlaiWSqzw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_AyVGEdDEEeWYiIlaiWSqzw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_AyVGEtDEEeWYiIlaiWSqzw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_Aymy4NDEEeWYiIlaiWSqzw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_AyA9ANDEEeWYiIlaiWSqzw" name="Date">
+      <eAnnotations xmi:id="_AyO_cNDEEeWYiIlaiWSqzw" source="http://ns.yatta.de/umllab">
+        <contents xmi:type="ecore:EAnnotation" xmi:id="_AyO_cdDEEeWYiIlaiWSqzw" source="codegen">
+          <details xmi:id="_AyO_ctDEEeWYiIlaiWSqzw" key="codegenDirectory" value="/Ex.Bank/src"/>
+        </contents>
+      </eAnnotations>
+      <ownedComment xmi:id="_A0VRMNDEEeWYiIlaiWSqzw">
+        <body>The Class Data.</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_AzaEINDEEeWYiIlaiWSqzw" name="day" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_AzhY4NDEEeWYiIlaiWSqzw" name="month" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_AzinANDEEeWYiIlaiWSqzw" name="year" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0ELcNDEEeWYiIlaiWSqzw" name="getDay" specification="_AyZ-kNDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0EygNDEEeWYiIlaiWSqzw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return day;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0KSENDEEeWYiIlaiWSqzw" name="setDay" specification="_AydB4NDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0KSEdDEEeWYiIlaiWSqzw" name="day">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_A0KSEtDEEeWYiIlaiWSqzw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>if (day > 31 || day &lt; 1) {
+   return false;
+ }
+ this.day = day;
+ return true;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0KSE9DEEeWYiIlaiWSqzw" name="getMonth" specification="_Aydo8dDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0KSFNDEEeWYiIlaiWSqzw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return month;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0K5INDEEeWYiIlaiWSqzw" name="setMonth" specification="_Aye3ENDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0K5IdDEEeWYiIlaiWSqzw" name="month">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_A0K5ItDEEeWYiIlaiWSqzw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>if (month > 12) {
+   return false;
+ }
+ this.month = month;
+ return true;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0LgMNDEEeWYiIlaiWSqzw" name="getYear" specification="_AyfeIdDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0LgMdDEEeWYiIlaiWSqzw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return year;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0MHQNDEEeWYiIlaiWSqzw" name="setYear" specification="_AygsQNDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0MHQdDEEeWYiIlaiWSqzw" name="year">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_A0MHQtDEEeWYiIlaiWSqzw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>if (year &lt; 2000)
+   return false;
+ this.year = year;
+ return true;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0MuUNDEEeWYiIlaiWSqzw" name="setDate" specification="_Ayk9sNDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0MuUdDEEeWYiIlaiWSqzw" name="day">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_A0MuUtDEEeWYiIlaiWSqzw" name="month">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_A0MuU9DEEeWYiIlaiWSqzw" name="year">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_A0MuVNDEEeWYiIlaiWSqzw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>if (this.setDay(day) &amp;&amp; this.setMonth(month) &amp;&amp; this.setYear(year))
+   return true;
+ return false;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0MuVdDEEeWYiIlaiWSqzw" name="toString" specification="_AymL0NDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0MuVtDEEeWYiIlaiWSqzw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return day + &quot;/&quot; + month + &quot;/&quot; + year;
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_AyZ-kNDEEeWYiIlaiWSqzw" name="getDay" method="_A0ELcNDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0VRMdDEEeWYiIlaiWSqzw">
+          <body>Gets the dia.
+   *
+   * @return the dia</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_AybzwNDEEeWYiIlaiWSqzw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_AydB4NDEEeWYiIlaiWSqzw" name="setDay" method="_A0KSENDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0V4QNDEEeWYiIlaiWSqzw">
+          <body>Sets the dia. Basic validation (1 &lt;= dia &lt;= 31)
+   *
+   * @param day the day
+   * @return true, if successful</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_AydB4dDEEeWYiIlaiWSqzw" name="day">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Aydo8NDEEeWYiIlaiWSqzw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Aydo8dDEEeWYiIlaiWSqzw" name="getMonth" method="_A0KSE9DEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0V4QdDEEeWYiIlaiWSqzw">
+          <body>Gets the month.
+   *
+   * @return the month</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_AyeQANDEEeWYiIlaiWSqzw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Aye3ENDEEeWYiIlaiWSqzw" name="setMonth" method="_A0K5INDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0V4QtDEEeWYiIlaiWSqzw">
+          <body>Sets the month.
+   *
+   * @param month the new month</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Aye3EdDEEeWYiIlaiWSqzw" name="month">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_AyfeINDEEeWYiIlaiWSqzw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_AyfeIdDEEeWYiIlaiWSqzw" name="getYear" method="_A0LgMNDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0V4Q9DEEeWYiIlaiWSqzw">
+          <body>Gets the year.
+   *
+   * @return the year</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_AygFMNDEEeWYiIlaiWSqzw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_AygsQNDEEeWYiIlaiWSqzw" name="setYear" method="_A0MHQNDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0V4RNDEEeWYiIlaiWSqzw">
+          <body>Sets the year. (>= 2000)
+   *
+   * @param year the new year</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_AyhTUNDEEeWYiIlaiWSqzw" name="year">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_AyhTUdDEEeWYiIlaiWSqzw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ayk9sNDEEeWYiIlaiWSqzw" name="setDate" method="_A0MuUNDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0WfUNDEEeWYiIlaiWSqzw">
+          <body>Sets the date.
+   *
+   * @param day the day
+   * @param month the month
+   * @param year the year
+   * @return true, if successful</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Ayk9sdDEEeWYiIlaiWSqzw" name="day">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_AylkwNDEEeWYiIlaiWSqzw" name="month">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_AylkwdDEEeWYiIlaiWSqzw" name="year">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_AylkwtDEEeWYiIlaiWSqzw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_AymL0NDEEeWYiIlaiWSqzw" name="toString" method="_A0MuVdDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_AypPINDEEeWYiIlaiWSqzw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_AyuusNDEEeWYiIlaiWSqzw" name="Employee">
+      <eAnnotations xmi:id="_AyvVwNDEEeWYiIlaiWSqzw" source="http://ns.yatta.de/umllab">
+        <contents xmi:type="ecore:EAnnotation" xmi:id="_AyvVwdDEEeWYiIlaiWSqzw" source="codegen">
+          <details xmi:id="_AyvVwtDEEeWYiIlaiWSqzw" key="codegenDirectory" value="/Ex.Bank/src"/>
+        </contents>
+      </eAnnotations>
+      <ownedComment xmi:id="_A0WfUdDEEeWYiIlaiWSqzw">
+        <body>The Class Employee.</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_AzkcMNDEEeWYiIlaiWSqzw" name="name" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_AzlDQdDEEeWYiIlaiWSqzw" name="departament" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_AzmRYNDEEeWYiIlaiWSqzw" name="salary" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Azm4cNDEEeWYiIlaiWSqzw" name="entranceDate" visibility="package" type="_AyA9ANDEEeWYiIlaiWSqzw" association="_s827ANDEEeWYiIlaiWSqzw"/>
+      <ownedAttribute xmi:id="_AzotoNDEEeWYiIlaiWSqzw" name="ccNumber" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Azp7wNDEEeWYiIlaiWSqzw" name="phoneNumber" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0NVYNDEEeWYiIlaiWSqzw" name="getName" specification="_Ay0OQNDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0NVYdDEEeWYiIlaiWSqzw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return name;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0OjgNDEEeWYiIlaiWSqzw" name="setName" specification="_Ay1cYNDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0OjgdDEEeWYiIlaiWSqzw" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.name = name;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0PKkNDEEeWYiIlaiWSqzw" name="getDepartament" specification="_Ay2DcNDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0PKkdDEEeWYiIlaiWSqzw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return departament;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0PxoNDEEeWYiIlaiWSqzw" name="setDepartament" specification="_Ay3RkNDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0PxodDEEeWYiIlaiWSqzw" name="departament">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.departament = departament;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0PxotDEEeWYiIlaiWSqzw" name="getSalary" specification="_Ay34oNDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0Pxo9DEEeWYiIlaiWSqzw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return salary;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0QYsNDEEeWYiIlaiWSqzw" name="setSalary" specification="_Ay5GwNDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0QYsdDEEeWYiIlaiWSqzw" name="salary">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.salary = salary;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0QYstDEEeWYiIlaiWSqzw" name="getEntranceDate" specification="_Ay5t0NDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0QYs9DEEeWYiIlaiWSqzw" type="_AyA9ANDEEeWYiIlaiWSqzw" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return entranceDate;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0Q_wNDEEeWYiIlaiWSqzw" name="setEntranceDate" specification="_AzVysdDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0Q_wdDEEeWYiIlaiWSqzw" name="entranceDate" type="_AyA9ANDEEeWYiIlaiWSqzw"/>
+        <language>java</language>
+        <body>this.entranceDate = entranceDate;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0Q_wtDEEeWYiIlaiWSqzw" name="getCcNumber" specification="_Ay7jANDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0Q_w9DEEeWYiIlaiWSqzw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return ccNumber;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0Rm0NDEEeWYiIlaiWSqzw" name="setCcNumber" specification="_Ay8KENDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0Rm0dDEEeWYiIlaiWSqzw" name="ccNumber">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.ccNumber = ccNumber;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0TcANDEEeWYiIlaiWSqzw" name="getPhoneNumber" specification="_Ay8xINDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0TcAdDEEeWYiIlaiWSqzw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return phoneNumber;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0TcAtDEEeWYiIlaiWSqzw" name="setPhoneNumber" specification="_Ay-mUNDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0TcA9DEEeWYiIlaiWSqzw" name="phoneNumber">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.phoneNumber = phoneNumber;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0UDENDEEeWYiIlaiWSqzw" name="print" specification="_Ay_NYdDEEeWYiIlaiWSqzw">
+        <language>java</language>
+        <body>System.out.println(&quot;Name: &quot; + this.getName());
+ System.out.println(&quot;CC: &quot; + this.getCcNumber());
+ System.out.println(&quot;Department: &quot; + this.getDepartament());
+ System.out.println(&quot;Phone number: &quot; + this.getPhoneNumber());
+ System.out.println(&quot;Salary: &quot; + this.getSalary());
+ System.out.println(&quot;Entrance date: &quot; + this.getEntranceDate().toString());
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_Ay0OQNDEEeWYiIlaiWSqzw" name="getName" method="_A0NVYNDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0WfUtDEEeWYiIlaiWSqzw">
+          <body>Gets the name.
+   *
+   * @return the name</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Ay01UNDEEeWYiIlaiWSqzw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ay1cYNDEEeWYiIlaiWSqzw" name="setName" method="_A0OjgNDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0WfU9DEEeWYiIlaiWSqzw">
+          <body>Sets the name.
+   *
+   * @param name the new name</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Ay1cYdDEEeWYiIlaiWSqzw" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ay2DcNDEEeWYiIlaiWSqzw" name="getDepartament" method="_A0PKkNDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0XGYNDEEeWYiIlaiWSqzw">
+          <body>Gets the departament.
+   *
+   * @return the departament</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Ay2qgNDEEeWYiIlaiWSqzw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ay3RkNDEEeWYiIlaiWSqzw" name="setDepartament" method="_A0PxoNDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0XGYdDEEeWYiIlaiWSqzw">
+          <body>Sets the departament.
+   *
+   * @param departament the new departament</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Ay3RkdDEEeWYiIlaiWSqzw" name="departament">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ay34oNDEEeWYiIlaiWSqzw" name="getSalary" method="_A0PxotDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0XGYtDEEeWYiIlaiWSqzw">
+          <body>Gets the salary.
+   *
+   * @return the salary</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Ay4fsNDEEeWYiIlaiWSqzw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ay5GwNDEEeWYiIlaiWSqzw" name="setSalary" method="_A0QYsNDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0XGY9DEEeWYiIlaiWSqzw">
+          <body>Sets the salary.
+   *
+   * @param salary the new salary</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Ay5GwdDEEeWYiIlaiWSqzw" name="salary">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ay5t0NDEEeWYiIlaiWSqzw" name="getEntranceDate" method="_A0QYstDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0XGZNDEEeWYiIlaiWSqzw">
+          <body>Gets the entrance date.
+   *
+   * @return the entrance date</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_AzVysNDEEeWYiIlaiWSqzw" type="_AyA9ANDEEeWYiIlaiWSqzw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ay7jANDEEeWYiIlaiWSqzw" name="getCcNumber" method="_A0Q_wtDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0XGZtDEEeWYiIlaiWSqzw">
+          <body>Gets the cc number.
+   *
+   * @return the cc number</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Ay7jAdDEEeWYiIlaiWSqzw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ay8KENDEEeWYiIlaiWSqzw" name="setCcNumber" method="_A0Rm0NDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0XtcNDEEeWYiIlaiWSqzw">
+          <body>Sets the cc number.
+   *
+   * @param ccNumber the new cc number</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Ay8KEdDEEeWYiIlaiWSqzw" name="ccNumber">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ay8xINDEEeWYiIlaiWSqzw" name="getPhoneNumber" method="_A0TcANDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0XtcdDEEeWYiIlaiWSqzw">
+          <body>Gets the phone number.
+   *
+   * @return the phone number</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Ay9_QNDEEeWYiIlaiWSqzw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ay-mUNDEEeWYiIlaiWSqzw" name="setPhoneNumber" method="_A0TcAtDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0XtctDEEeWYiIlaiWSqzw">
+          <body>Sets the phone number.
+   *
+   * @param phoneNumber the new phone number</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Ay_NYNDEEeWYiIlaiWSqzw" name="phoneNumber">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ay_NYdDEEeWYiIlaiWSqzw" name="print" method="_A0UDENDEEeWYiIlaiWSqzw"/>
+      <ownedOperation xmi:id="_AzVysdDEEeWYiIlaiWSqzw" name="setEntranceDate" method="_A0Q_wNDEEeWYiIlaiWSqzw">
+        <ownedComment xmi:id="_A0XGZdDEEeWYiIlaiWSqzw">
+          <body>Sets the entrance date.
+   *
+   * @param entranceDate the new entrance date</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_AzWZwNDEEeWYiIlaiWSqzw" name="entranceDate" type="_AyA9ANDEEeWYiIlaiWSqzw"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_AzEs8NDEEeWYiIlaiWSqzw" name="MainProgram">
+      <eAnnotations xmi:id="_AzFUANDEEeWYiIlaiWSqzw" source="http://ns.yatta.de/umllab">
+        <contents xmi:type="ecore:EAnnotation" xmi:id="_AzFUAdDEEeWYiIlaiWSqzw" source="codegen">
+          <details xmi:id="_AzFUAtDEEeWYiIlaiWSqzw" key="codegenDirectory" value="/Ex.Bank/src"/>
+        </contents>
+      </eAnnotations>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A0UqINDEEeWYiIlaiWSqzw" name="main" specification="_AzF7ENDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_A0UqIdDEEeWYiIlaiWSqzw" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A0UqItDEEeWYiIlaiWSqzw" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Employee e1 = new Employee();
+ e1.setName(&quot;Francisco&quot;);
+ e1.setCcNumber(&quot;198187287&quot;);
+ e1.setDepartament(&quot;Electrical Engineering&quot;);
+ e1.setPhoneNumber(&quot;289800100&quot;);
+ e1.setSalary(2000);
+ Date d1 = new Date();
+ e1.setEntranceDate(d1);
+ d1.setDay(21);
+ d1.setMonth(12);
+ d1.setYear(2015);
+ 
+ e1.print();
+ 
+ Employee e2 = new Employee();
+ e2.setName(&quot;João&quot;);
+ e2.setCcNumber(&quot;2131321313&quot;);
+ e2.setDepartament(&quot;Informatics&quot;);
+ e2.setPhoneNumber(&quot;289800101&quot;);
+ e2.setSalary(2000);
+ Date d2 = new Date();
+ d2.setDate(22, 12, 2011);
+ e2.setEntranceDate(d2);
+ 
+ e2.print();
+ 
+ Employee e3 = new Employee();
+ e3.setName(&quot;Francisco&quot;);
+ e3.setCcNumber(&quot;198187287&quot;);
+ e3.setDepartament(&quot;Electrical Engineering&quot;);
+ e3.setPhoneNumber(&quot;289800100&quot;);
+ e3.setSalary(2000);
+ Date d3 = new Date();
+ e3.setEntranceDate(d3);
+ d3.setDay(21);
+ d3.setMonth(12);
+ d3.setYear(2015);
+ 
+ e3.print();
+ 
+ if (e1 == e3) {
+   System.out.println(&quot;e1 == e3&quot;);
+ } else {
+   System.out.println(&quot;e1 &lt;> e3&quot;);
+ }
+ 
+ Employee e4;
+ 
+ e4 = e1;
+ 
+ if (e1 == e4) {
+   System.out.println(&quot;e1 == e4&quot;);
+ } else {
+   System.out.println(&quot;e1 &lt;> e4&quot;);
+ }
+ 
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_AzF7ENDEEeWYiIlaiWSqzw" name="main" isStatic="true" method="_A0UqINDEEeWYiIlaiWSqzw">
+        <ownedParameter xmi:id="_AzF7EdDEEeWYiIlaiWSqzw" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AzGiINDEEeWYiIlaiWSqzw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_s827ANDEEeWYiIlaiWSqzw" name="" memberEnd="_s827AdDEEeWYiIlaiWSqzw _Azm4cNDEEeWYiIlaiWSqzw">
+      <ownedEnd xmi:id="_s827AdDEEeWYiIlaiWSqzw" name="" type="_AyuusNDEEeWYiIlaiWSqzw" association="_s827ANDEEeWYiIlaiWSqzw"/>
+    </packagedElement>
+    <profileApplication xmi:id="_hjwjgNC-EeW6X_Jxb8Wqeg">
+      <eAnnotations xmi:id="_hjwjgdC-EeW6X_Jxb8Wqeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_hjxKkNC-EeW6X_Jxb8Wqeg" base_Package="_haONANC-EeW6X_Jxb8Wqeg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AzeVkNDEEeWYiIlaiWSqzw" base_Element="_AzaEINDEEeWYiIlaiWSqzw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Azh_8NDEEeWYiIlaiWSqzw" base_Element="_AzhY4NDEEeWYiIlaiWSqzw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Azj1INDEEeWYiIlaiWSqzw" base_Element="_AzinANDEEeWYiIlaiWSqzw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AzlDQNDEEeWYiIlaiWSqzw" base_Element="_AzkcMNDEEeWYiIlaiWSqzw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AzlqUNDEEeWYiIlaiWSqzw" base_Element="_AzlDQdDEEeWYiIlaiWSqzw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AzmRYdDEEeWYiIlaiWSqzw" base_Element="_AzmRYNDEEeWYiIlaiWSqzw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AznfgNDEEeWYiIlaiWSqzw" base_Element="_Azm4cNDEEeWYiIlaiWSqzw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AzpUsNDEEeWYiIlaiWSqzw" base_Element="_AzotoNDEEeWYiIlaiWSqzw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Azqi0NDEEeWYiIlaiWSqzw" base_Element="_Azp7wNDEEeWYiIlaiWSqzw"/>
+  <UMLLabProfile:Reference xmi:id="_s84JINDEEeWYiIlaiWSqzw" base_Element="_s827ANDEEeWYiIlaiWSqzw"/>
+</xmi:XMI>
